@@ -1,3 +1,10 @@
 {
-  "eliminated": []
+  "eliminated": [
+    {
+      "week": 1,
+      "team_id": 8,
+      "team_name": "Schwartz Letowitz",
+      "score": 83.42
+    }
+  ]
 }

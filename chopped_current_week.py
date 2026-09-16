@@ -12,6 +12,7 @@ URL = (
 response = requests.get(
     URL,
     params={
+        "view": "mSettings",
         "view": "mMatchupScore"
     }
 )
@@ -20,46 +21,24 @@ response.raise_for_status()
 
 data = response.json()
 
-schedule = data.get("schedule", [])
+status = data.get("status", {})
 
 print()
 print("=" * 60)
 print("CHOPPED CURRENT WEEK DETECTOR")
 print("=" * 60)
 
-if not schedule:
-    print("No ESPN schedule data found.")
-    raise SystemExit
+print(f"ESPN current matchup period: {status.get('currentMatchupPeriod')}")
+print(f"ESPN current scoring period: {status.get('currentScoringPeriodId')}")
+print(f"ESPN season stage: {status.get('seasonId')}")
 
-# Find matchup periods that have actual scoring activity.
-active_periods = []
+current_week = status.get("currentMatchupPeriod")
 
-for matchup in schedule:
-
-    period = matchup.get("matchupPeriodId")
-
-    if period is None:
-        continue
-
-    home = matchup.get("home", {})
-    away = matchup.get("away", {})
-
-    home_score = home.get("totalPointsLive", 0) or 0
-    away_score = away.get("totalPointsLive", 0) or 0
-
-    if home_score > 0 or away_score > 0:
-        active_periods.append(period)
-
-
-if active_periods:
-
-    current_week = max(active_periods)
-
+if current_week is not None:
+    print()
     print(f"Current ESPN scoring week: {current_week}")
-
 else:
-
-    print("No scoring activity detected yet.")
-    print("The season may not have started.")
+    print()
+    print("ESPN did not provide a current matchup period.")
 
 print("=" * 60)

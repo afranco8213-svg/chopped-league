@@ -15,39 +15,36 @@ def get_current_week():
 
     response = requests.get(
         url,
-        params={"view": "mMatchupScore"}
+        params={
+            "view": "mSettings",
+            "view": "mMatchupScore"
+        }
     )
 
     response.raise_for_status()
 
     data = response.json()
-    schedule = data.get("schedule", [])
 
-    active_periods = []
+    status = data.get("status", {})
+    current_week = status.get("currentMatchupPeriod")
 
-    for matchup in schedule:
-
-        period = matchup.get("matchupPeriodId")
-
-        if period is None:
-            continue
-
-        home = matchup.get("home", {})
-        away = matchup.get("away", {})
-
-        home_score = home.get("totalPointsLive", 0) or 0
-        away_score = away.get("totalPointsLive", 0) or 0
-
-        if home_score > 0 or away_score > 0:
-            active_periods.append(period)
-
-    if not active_periods:
+    if current_week is None:
         return None
 
-    return max(active_periods)
+    return current_week
 
 
 WEEK = get_current_week()
+
+HISTORY_FILE = "chopped_history.json"
+
+with open(HISTORY_FILE, "r") as f:
+    history = json.load(f)
+
+ELIMINATED_TEAM_IDS = {
+    item["team_id"]
+    for item in history.get("eliminated", [])
+}
 
 if WEEK is None:
     print("No active ESPN scoring week detected.")
@@ -79,6 +76,26 @@ def get_week_status(data):
     return "FINAL"
 
 def get_espn_data():
+
+    params = [
+        ("view", "mTeam"),
+        ("view", "mMatchupScore"),
+    ]
+
+    response = requests.get(
+        URL,
+        params=params,
+        timeout=20
+    )
+
+    response.raise_for_status()
+
+    data = response.json()
+
+    # Determine whether this specific week is final.
+    data["chopped_week_status"] = get_week_status(data)
+
+    return data
 
     params = [
         ("view", "mTeam"),
@@ -165,8 +182,6 @@ try:
 
     results = []
 
-    results = []
-
     for entry in scores:
 
         team_id = entry["team_id"]
@@ -176,14 +191,18 @@ try:
             f"Team {team_id}"
         )
 
-        results.append({
-            "team_id": team_id,
-            "team_name": team_name,
-            "score": entry["score"],
-            "projected": entry["projected"]
-        })
+        if team_id not in ELIMINATED_TEAM_IDS:
+            results.append({
+                "team_id": team_id,
+                "team_name": team_name,
+                "score": entry["score"],
+                "projected": entry["projected"]
+            })
 
-    results.sort(key=lambda x: x["score"])
+    if status == "FINAL":
+        results.sort(key=lambda x: x["score"])
+    else:
+        results.sort(key=lambda x: x["projected"])
 
     # ---------------------------------------------------------
     # DISPLAY RESULTS
@@ -216,10 +235,14 @@ try:
 
     lowest = results[0]
 
+    if status == "FINAL":
+        block_score = lowest["score"]
+    else:
+        block_score = lowest["projected"]
+
     print(
         f"CURRENT CHOPPING BLOCK: "
-        f"{lowest['team_name']} "
-        f"({lowest['score']:.2f})"
+        f"{lowest['team_name']} ({block_score:.2f})"
     )
 
     print("=" * 70)

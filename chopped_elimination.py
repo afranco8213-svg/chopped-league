@@ -16,37 +16,28 @@ def get_current_week():
 
     response = requests.get(
         url,
-        params={"view": "mMatchupScore"}
+        params={
+            "view": "mSettings",
+            "view": "mMatchupScore"
+        }
     )
 
     response.raise_for_status()
 
     data = response.json()
-    schedule = data.get("schedule", [])
 
-    active_periods = []
+    status = data.get("status", {})
+    current_week = status.get("currentMatchupPeriod")
 
-    for matchup in schedule:
-
-        period = matchup.get("matchupPeriodId")
-
-        if period is None:
-            continue
-
-        home = matchup.get("home", {})
-        away = matchup.get("away", {})
-
-        home_score = home.get("totalPointsLive", 0) or 0
-        away_score = away.get("totalPointsLive", 0) or 0
-
-        if home_score > 0 or away_score > 0:
-            active_periods.append(period)
-
-    if not active_periods:
+    if current_week is None:
         return None
 
-    return max(active_periods)
+    # The elimination engine processes the most recently
+    # completed week, not the currently live week.
+    if current_week <= 1:
+        return None
 
+    return current_week - 1
 
 WEEK = get_current_week()
 
@@ -59,8 +50,81 @@ WEEK_FILE = f"week_{WEEK}_data.json"
 
 
 def load_week_data():
-    with open(WEEK_FILE, "r") as f:
-        return json.load(f)
+    url = (
+        f"https://lm-api-reads.fantasy.espn.com/"
+        f"apis/v3/games/ffl/seasons/{SEASON}/segments/0/"
+        f"leagues/{LEAGUE_ID}"
+    )
+
+    response = requests.get(
+        url,
+        params=[
+            ("view", "mTeam"),
+            ("view", "mMatchupScore"),
+        ],
+        timeout=20
+    )
+
+    response.raise_for_status()
+
+    data = response.json()
+
+    schedule = data.get("schedule", [])
+
+    week_matchups = [
+        matchup
+        for matchup in schedule
+        if matchup.get("matchupPeriodId") == WEEK
+    ]
+
+    if not week_matchups:
+        print()
+        print(f"ERROR: No ESPN matchups found for Week {WEEK}.")
+        raise SystemExit
+
+    # Build team scores from the completed week's matchups.
+    team_scores = {}
+
+    for matchup in week_matchups:
+
+        for side in ("home", "away"):
+
+            team = matchup.get(side)
+
+            if not team:
+                continue
+
+            team_id = team.get("teamId")
+
+            if team_id is None:
+                continue
+
+            team_scores[team_id] = team.get("totalPoints", 0)
+
+    teams = data.get("teams", [])
+
+    week_teams = []
+
+    for team in teams:
+
+        team_id = team.get("id")
+
+        if team_id not in team_scores:
+            continue
+
+        team_name = team.get("name", "Unknown Team").strip()
+
+        week_teams.append({
+            "team_id": team_id,
+            "team_name": team_name,
+            "score": team_scores[team_id]
+        })
+
+    return {
+        "week": WEEK,
+        "status": "FINAL",
+        "teams": week_teams
+    }
 
 
 def load_history():

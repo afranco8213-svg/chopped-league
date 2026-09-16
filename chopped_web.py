@@ -1,6 +1,7 @@
 from flask import Flask, render_template_string
 from pathlib import Path
 import json
+import os
 
 app = Flask(__name__)
 
@@ -288,7 +289,11 @@ HTML = """
             </div>
 
             <div class="score">
-                {{ "%.2f"|format(team.score) }}
+                Actual: {{ "%.2f"|format(team.score) }}
+            </div>
+
+            <div class="projection">
+                Projected: {{ "%.2f"|format(team.projected) }}
             </div>
 
         </div>
@@ -308,18 +313,24 @@ HTML = """
 
         {% if chopping_block %}
 
-            {% for team in chopping_block %}
+                        {% for team in chopping_block %}
 
             <div class="card chopping">
 
-                <div class="stat-label">Currently in danger</div>
+                <div class="stat-label">
+                    Currently in danger
+                </div>
 
                 <div class="team-name">
                     {{ team.name }}
                 </div>
 
                 <div class="stat-value">
-                    {{ "%.2f"|format(team.score) }}
+                    Actual: {{ "%.2f"|format(team.score) }}
+                </div>
+
+                <div class="projection">
+                    Projected: {{ "%.2f"|format(team.projected) }}
                 </div>
 
             </div>
@@ -491,16 +502,40 @@ def load_data():
     ]
 
 
-    active_teams.sort(
-        key=lambda team: team.get("score", 0),
-        reverse=True
-    )
+    if current_data.get("status", "LIVE").upper() == "FINAL":
+        active_teams.sort(
+            key=lambda team: team.get("score", 0),
+            reverse=True
+        )
+    else:
+        active_teams.sort(
+            key=lambda team: team.get(
+                "projected_score",
+                team.get("projected", 0)
+            ),
+            reverse=True
+        )
 
 
-    max_score = max(
-        [team.get("score", 0) for team in active_teams],
-        default=1
-    )
+    if current_data.get("status", "LIVE").upper() == "FINAL":
+        max_score = max(
+            [team.get("score", 0) for team in active_teams],
+            default=0
+        )
+    else:
+        max_score = max(
+            [
+                team.get(
+                    "projected_score",
+                    team.get("projected", 0)
+                )
+                for team in active_teams
+            ],
+            default=0
+        )
+
+    if max_score <= 0:
+        max_score = 1
 
 
     formatted_teams = []
@@ -528,33 +563,77 @@ def load_data():
 
     if active_teams:
 
-        lowest_score = min(
-            team["score"]
-            for team in active_teams
-        )
+        if current_data.get("status", "LIVE").upper() == "FINAL":
+            lowest_score = min(
+                team["score"]
+                for team in active_teams
+            )
 
-        chopping_block = [
-            {
-                "name": team["team_name"],
-                "score": team["score"]
-            }
-            for team in active_teams
-            if team["score"] == lowest_score
-        ]
+            chopping_block = [
+                {
+                    "name": team["team_name"],
+                    "score": team["score"],
+                    "projected": team.get(
+                        "projected_score",
+                        team.get("projected", 0)
+                    )
+                }
+                for team in active_teams
+                if team["score"] == lowest_score
+            ]
+
+        else:
+            lowest_projected = min(
+                team.get(
+                    "projected_score",
+                    team.get("projected", 0)
+                )
+                for team in active_teams
+            )
+
+            chopping_block = [
+                {
+                    "name": team["team_name"],
+                    "score": team.get("score", 0),
+                    "projected": team.get(
+                        "projected_score",
+                        team.get("projected", 0)
+                    )
+                }
+                for team in active_teams
+                if team.get(
+                    "projected_score",
+                    team.get("projected", 0)
+                ) == lowest_projected
+            ]
+
 
     else:
 
         chopping_block = []
 
-    danger_zone = sorted(
-        active_teams,
-        key=lambda team: team.get("score", 0)
-    )[:3]
+    if current_data.get("status", "LIVE").upper() == "FINAL":
+        danger_zone = sorted(
+            active_teams,
+            key=lambda team: team.get("score", 0)
+        )[:3]
+    else:
+        danger_zone = sorted(
+            active_teams,
+            key=lambda team: team.get(
+                "projected_score",
+                team.get("projected", 0)
+            )
+        )[:3]
 
     danger_zone = [
         {
             "team_name": team.get("team_name", "Unknown"),
-            "score": team.get("score", 0)
+            "score": team.get("score", 0),
+            "projected": team.get(
+                "projected_score",
+                team.get("projected", 0)
+            )
         }
         for team in danger_zone
     ]
@@ -585,7 +664,7 @@ def home():
 if __name__ == "__main__":
 
     app.run(
-        host="127.0.0.1",
-        port=5000,
-        debug=False
-    )
+    host="0.0.0.0",
+    port=int(os.environ.get("PORT", 5000)),
+    debug=False
+)
