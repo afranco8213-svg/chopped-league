@@ -2,9 +2,108 @@ from flask import Flask, render_template_string
 from pathlib import Path
 import json
 import os
+import requests
 
 app = Flask(__name__)
 
+LEAGUE_ID = 781990
+SEASON = 2026
+
+ESPN_URL = (
+    f"https://lm-api-reads.fantasy.espn.com/"
+    f"apis/v3/games/ffl/seasons/{SEASON}/segments/0/"
+    f"leagues/{LEAGUE_ID}"
+)
+
+def get_espn_current_week():
+    try:
+        response = requests.get(
+            ESPN_URL,
+            params={"view": "mSettings"},
+            timeout=10
+        )
+        response.raise_for_status()
+
+        data = response.json()
+
+        return int(data["status"]["currentMatchupPeriod"])
+
+    except Exception as e:
+        print(f"Could not determine ESPN current week: {e}")
+        return None
+def get_espn_week_data(week):
+    try:
+        params = [
+            ("view", "mTeam"),
+            ("view", "mMatchupScore")
+        ]
+
+        response = requests.get(
+            ESPN_URL,
+            params=params,
+            timeout=15
+        )
+        response.raise_for_status()
+
+        data = response.json()
+
+        team_names = {
+            team["id"]: team.get("name", f"Team {team['id']}")
+            for team in data.get("teams", [])
+        }
+
+        teams = []
+
+        week_matchups = [
+            matchup
+            for matchup in data.get("schedule", [])
+            if matchup.get("matchupPeriodId") == week
+        ]
+
+        status = "FINAL"
+
+        for matchup in week_matchups:
+
+            if matchup.get("winner") in (None, "UNDECIDED"):
+                status = "LIVE"
+
+            for side in ("home", "away"):
+
+                entry = matchup.get(side)
+
+                if not entry:
+                    continue
+
+                team_id = entry.get("teamId")
+
+                teams.append({
+                    "team_id": team_id,
+                    "team_name": team_names.get(
+                        team_id,
+                        f"Team {team_id}"
+                    ),
+                    "score": entry.get(
+                        "totalPointsLive",
+                        entry.get("totalPoints", 0)
+                    ),
+                    "projected": entry.get(
+                        "totalProjectedPointsLive",
+                        entry.get("totalProjectedPoints", 0)
+                    )
+                })
+
+        if not teams:
+            return None
+
+        return {
+            "week": week,
+            "status": status,
+            "teams": teams
+        }
+
+    except Exception as e:
+        print(f"Could not load ESPN Week {week}: {e}")
+        return None
 BASE_DIR = Path(__file__).resolve().parent
 HISTORY_FILE = BASE_DIR / "chopped_history.json"
 
@@ -471,20 +570,15 @@ def load_data():
             history = json.load(f)
 
 
-    week_files = sorted(
-        BASE_DIR.glob("week_*_data.json"),
-        key=lambda p: p.stat().st_mtime,
-        reverse=True
-    )
-
-
     current_data = {}
 
-    if week_files:
+    espn_week = get_espn_current_week()
 
-        with open(week_files[0], "r", encoding="utf-8") as f:
-            current_data = json.load(f)
+    if espn_week is not None:
+        espn_data = get_espn_week_data(espn_week)
 
+        if espn_data:
+            current_data = espn_data
 
     teams = current_data.get("teams", [])
 
