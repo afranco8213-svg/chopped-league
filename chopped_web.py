@@ -303,8 +303,15 @@ HTML = """
             }
 
             .team-row {
-                grid-template-columns: 35px minmax(0, 1fr) auto auto;
-                gap: 10px;
+                grid-template-columns: 35px minmax(120px, 1fr) auto auto;
+                gap: 8px;
+                align-items: center;
+            }
+
+            .team-name {
+                min-width: 0;
+                overflow-wrap: break-word;
+                hyphens: auto;
             }
 
             .projection {
@@ -320,6 +327,28 @@ HTML = """
         }
 
                 @media (max-width: 550px) {
+            .team-row {
+                grid-template-columns: 28px minmax(0, 1fr) auto;
+                gap: 8px;
+            }
+
+            .team-row .projection {
+                grid-column: 2 / 4;
+                text-align: left;
+                margin-top: -4px;
+                font-size: 13px;
+            }
+
+            .team-row .score {
+                text-align: right;
+                font-size: 14px;
+            }
+
+            .team-name {
+                line-height: 1.2;
+                hyphens: auto;
+                overflow-wrap: break-word;
+            }
             .cards {
                 grid-template-columns: 1fr 1fr;
             }
