@@ -297,21 +297,29 @@ HTML = """
             font-size: 12px;
         }
 
-        @media (max-width: 850px) {
+                @media (max-width: 850px) {
             .cards {
                 grid-template-columns: repeat(2, 1fr);
             }
 
             .team-row {
-                grid-template-columns: 35px 1fr 90px;
+                grid-template-columns: 35px minmax(0, 1fr) auto auto;
+                gap: 10px;
             }
 
             .projection {
-                display: none;
+                display: block;
+                font-size: 14px;
+                white-space: nowrap;
+            }
+
+            .score {
+                font-size: 14px;
+                white-space: nowrap;
             }
         }
 
-        @media (max-width: 550px) {
+                @media (max-width: 550px) {
             .cards {
                 grid-template-columns: 1fr 1fr;
             }
@@ -326,6 +334,31 @@ HTML = """
 
             .container {
                 padding: 0 12px;
+            }
+
+            .team-row.eliminated {
+                grid-template-columns: minmax(0, 1fr) auto;
+                grid-template-areas:
+                    "name score"
+                    "week score";
+                gap: 6px 16px;
+                align-items: center;
+            }
+
+            .team-row.eliminated .team-name {
+                grid-area: name;
+            }
+
+            .team-row.eliminated > div:nth-child(2) {
+                grid-area: week;
+                color: #94a3b8;
+                font-size: 14px;
+            }
+
+            .team-row.eliminated .score {
+                grid-area: score;
+                font-size: 18px;
+                font-weight: 700;
             }
         }
     </style>
