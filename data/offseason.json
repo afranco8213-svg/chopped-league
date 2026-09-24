@@ -1,0 +1,64 @@
+{
+    "title": "2027 Offseason",
+    "timezone": "America/New_York",
+    "note": "Placeholder dates — edit these, then commit. The dashboard and the daily email notifier both read this file.",
+    "events": [
+        {
+            "id": "season-ends",
+            "date": "2026-12-28",
+            "name": "Last Team Standing",
+            "description": "Final week of the 2026 season. Whoever survives the last chop takes the crown."
+        },
+        {
+            "id": "rule-proposals-due",
+            "date": "2027-01-16",
+            "name": "Rule Change Proposals Due",
+            "description": "Send any rule or scoring changes you want on the ballot to the commissioner."
+        },
+        {
+            "id": "rule-vote-opens",
+            "date": "2027-02-01",
+            "name": "Rule Change Voting Opens",
+            "description": "Ballot goes out with every proposal that made the cut."
+        },
+        {
+            "id": "rule-vote-closes",
+            "date": "2027-02-15",
+            "name": "Rule Change Voting Closes",
+            "description": "Last call. Anything short of a majority stays the way it is.",
+            "remindersDaysBefore": [7, 3, 1, 0]
+        },
+        {
+            "id": "draft-date-vote-opens",
+            "date": "2027-03-01",
+            "name": "Draft Date Voting Opens",
+            "description": "Pick your availability for draft day. The winning date locks the whole preseason calendar."
+        },
+        {
+            "id": "draft-date-vote-closes",
+            "date": "2027-03-22",
+            "name": "Draft Date Voting Closes",
+            "description": "Final day to vote on the draft date. No vote, no complaints.",
+            "remindersDaysBefore": [7, 3, 1, 0]
+        },
+        {
+            "id": "dues-deadline",
+            "date": "2027-04-15",
+            "name": "League Dues Deadline",
+            "description": "Buy-in due to the commissioner. Unpaid managers lose their spot."
+        },
+        {
+            "id": "roster-confirm",
+            "date": "2027-07-15",
+            "name": "Confirm Returning Managers",
+            "description": "Say whether you're back for another season so open spots can be filled."
+        },
+        {
+            "id": "draft-day",
+            "date": "2027-08-28",
+            "name": "Draft Day",
+            "description": "Placeholder until the draft date vote settles it.",
+            "remindersDaysBefore": [30, 7, 1, 0]
+        }
+    ]
+}

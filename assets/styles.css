@@ -283,3 +283,80 @@ body {
         font-weight: 700;
     }
 }
+
+.event-row {
+    display: grid;
+    grid-template-columns: 150px 1fr 110px;
+    gap: 15px;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #263244;
+}
+
+.event-row:last-child {
+    border-bottom: none;
+}
+
+.event-row.past {
+    opacity: .5;
+}
+
+.event-row.today .team-name {
+    color: #facc15;
+}
+
+.event-date {
+    color: #94a3b8;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.event-description {
+    color: #94a3b8;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.event-link {
+    display: inline-block;
+    margin-top: 7px;
+    color: #60a5fa;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.event-link:hover {
+    text-decoration: underline;
+}
+
+.badge-past {
+    background: #1e293b;
+    color: #94a3b8;
+}
+
+.event-row .badge {
+    justify-self: end;
+    white-space: nowrap;
+}
+
+@media (max-width: 550px) {
+    .event-row {
+        grid-template-columns: minmax(0, 1fr) auto;
+        grid-template-areas:
+            "date badge"
+            "details details";
+        gap: 8px 12px;
+    }
+
+    .event-date {
+        grid-area: date;
+    }
+
+    .event-row .badge {
+        grid-area: badge;
+    }
+
+    .event-row > div:nth-child(2) {
+        grid-area: details;
+    }
+}

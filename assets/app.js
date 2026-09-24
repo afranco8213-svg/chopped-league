@@ -11,6 +11,13 @@ import {
     formatScore
 } from "./chopped-core.js";
 
+import {
+    SCHEDULE_PATH,
+    buildSchedule,
+    describeCountdown,
+    formatEventDate
+} from "./schedule-core.js";
+
 const REFRESH_MS = 30_000;
 
 const params = new URLSearchParams(window.location.search);
@@ -172,6 +179,74 @@ function renderEliminated(data) {
     );
 }
 
+/**
+ * The offseason schedule comes from a committed JSON file rather than ESPN,
+ * so it is rendered once at load instead of on the 30 second refresh.
+ */
+async function renderSchedule() {
+    const container = el("offseason-schedule");
+    const heading = el("schedule-next");
+
+    try {
+        const response = await fetch(SCHEDULE_PATH, { cache: "no-cache" });
+
+        if (!response.ok) {
+            throw new Error(`${response.status} ${response.statusText}`);
+        }
+
+        const data = buildSchedule(await response.json());
+
+        if (data.events.length === 0) {
+            renderEmpty(container, "No key dates on the calendar yet.");
+            return;
+        }
+
+        heading.textContent = data.next
+            ? `Next: ${data.next.name} • ${describeCountdown(data.next.daysUntil)}`
+            : `${data.title} • complete`;
+
+        replace(
+            container,
+            data.events.map((event) => {
+                const row = node("div", `event-row ${event.status.toLowerCase()}`);
+
+                const details = node("div");
+                details.append(node("div", "team-name", event.name));
+
+                if (event.description) {
+                    details.append(node("div", "event-description", event.description));
+                }
+
+                if (event.link) {
+                    const link = node("a", "event-link", "Open →");
+                    link.href = event.link;
+                    link.target = "_blank";
+                    link.rel = "noopener noreferrer";
+                    details.append(link);
+                }
+
+                const badgeClass =
+                    event.status === "TODAY"
+                        ? "badge badge-live"
+                        : event.status === "PAST"
+                          ? "badge badge-past"
+                          : "badge badge-final";
+
+                row.append(
+                    node("div", "event-date", formatEventDate(event.date)),
+                    details,
+                    node("div", badgeClass, describeCountdown(event.daysUntil))
+                );
+
+                return row;
+            })
+        );
+    } catch (error) {
+        console.error(error);
+        renderEmpty(container, `Could not load the offseason schedule: ${error.message}`);
+    }
+}
+
 function renderError(error) {
     const message = `Could not load ESPN data: ${error.message}`;
 
@@ -207,3 +282,5 @@ el("season").textContent = season;
 
 refresh();
 setInterval(refresh, REFRESH_MS);
+
+renderSchedule();

@@ -12,6 +12,9 @@
     "week": "node scripts/week.js",
     "elimination": "node scripts/elimination.js",
     "current-week": "node scripts/current-week.js",
+    "schedule": "node scripts/schedule.js",
+    "notify": "node scripts/notify.js",
+    "notify:dry": "node scripts/notify.js --dry-run",
     "serve": "npx --yes serve ."
   }
 }

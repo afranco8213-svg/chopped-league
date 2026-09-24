@@ -1,0 +1,47 @@
+name: Offseason notifications
+
+# Emails the league about anything in data/offseason.json that is due today.
+# 13:00 UTC is 9am ET in summer, 8am ET in winter. GitHub's scheduler can run
+# a cron late under load, so treat the time as "that morning", not to the minute.
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Print the email instead of sending it"
+        type: boolean
+        default: true
+      date:
+        description: "Pretend today is this date (YYYY-MM-DD)"
+        type: string
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # The site itself has no dependencies; nodemailer is only needed here.
+      - run: npm install --no-save nodemailer
+
+      - name: Send due reminders
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NOTIFY_TO: ${{ secrets.NOTIFY_TO }}
+          NOTIFY_FROM_NAME: ${{ vars.NOTIFY_FROM_NAME }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          node scripts/notify.js \
+            ${{ inputs.dry_run && '--dry-run' || '' }} \
+            ${{ inputs.date && format('--date={0}', inputs.date) || '' }}
