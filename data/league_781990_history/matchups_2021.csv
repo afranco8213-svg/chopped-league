@@ -1,0 +1,85 @@
+year,week,home_team,home_score,away_team,away_score,playoff
+2021,1,Is Saquon  Toast? Yes,102.46,Team Bag,95.22,False
+2021,1,Leaping  Gnome's,117.54,Run C.M.C.,109.0,False
+2021,1,Darth  Goose,90.24,Fantasy  Football Team ,133.86,False
+2021,1,Chuba Chubb,116.48,Im George K,102.28,False
+2021,1,Slop 'em  up,114.66,Party Party Party Party,130.06,False
+2021,2,Run C.M.C.,138.86,Fantasy  Football Team ,141.9,False
+2021,2,Im George K,126.82,Is Saquon  Toast? Yes,119.64,False
+2021,2,Party Party Party Party,111.12,Team Bag,121.5,False
+2021,2,Chuba Chubb,122.28,Leaping  Gnome's,82.16,False
+2021,2,Slop 'em  up,102.7,Darth  Goose,98.12,False
+2021,3,Im George K,113.5,Party Party Party Party,132.42,False
+2021,3,Run C.M.C.,85.38,Chuba Chubb,118.38,False
+2021,3,Fantasy  Football Team ,96.94,Slop 'em  up,121.64,False
+2021,3,Is Saquon  Toast? Yes,99.28,Leaping  Gnome's,83.72,False
+2021,3,Team Bag,146.84,Darth  Goose,116.02,False
+2021,4,Chuba Chubb,90.24,Slop 'em  up,94.58,False
+2021,4,Leaping  Gnome's,87.52,Im George K,98.82,False
+2021,4,Darth  Goose,90.1,Party Party Party Party,125.66,False
+2021,4,Is Saquon  Toast? Yes,93.96,Run C.M.C.,129.84,False
+2021,4,Team Bag,136.92,Fantasy  Football Team ,117.52,False
+2021,5,Leaping  Gnome's,91.7,Darth  Goose,127.9,False
+2021,5,Chuba Chubb,121.8,Is Saquon  Toast? Yes,104.74,False
+2021,5,Slop 'em  up,151.62,Team Bag,96.76,False
+2021,5,Im George K,131.08,Run C.M.C.,162.28,False
+2021,5,Party Party Party Party,128.68,Fantasy  Football Team ,124.76,False
+2021,6,Team Bag,127.9,Run C.M.C.,88.78,False
+2021,6,Fantasy  Football Team ,122.36,Im George K,89.88,False
+2021,6,Party Party Party Party,122.28,Chuba Chubb,124.54,False
+2021,6,Slop 'em  up,97.2,Leaping  Gnome's,120.22,False
+2021,6,Darth  Goose,113.14,Is Saquon  Toast? Yes,100.88,False
+2021,7,Im George K,68.94,Team Bag,127.56,False
+2021,7,Chuba Chubb,94.84,Fantasy  Football Team ,118.64,False
+2021,7,Leaping  Gnome's,100.4,Party Party Party Party,101.38,False
+2021,7,Is Saquon  Toast? Yes,109.64,Slop 'em  up,161.74,False
+2021,7,Run C.M.C.,84.88,Darth  Goose,168.86,False
+2021,8,Team Bag,120.26,Chuba Chubb,107.36,False
+2021,8,Fantasy  Football Team ,68.46,Leaping  Gnome's,109.46,False
+2021,8,Party Party Party Party,121.14,Is Saquon  Toast? Yes,100.8,False
+2021,8,Slop 'em  up,82.52,Run C.M.C.,94.16,False
+2021,8,Darth  Goose,110.0,Im George K,92.7,False
+2021,9,Leaping  Gnome's,114.96,Team Bag,99.88,False
+2021,9,Is Saquon  Toast? Yes,103.94,Chuba Chubb,108.08,False
+2021,9,Fantasy  Football Team ,59.78,Darth  Goose,91.76,False
+2021,9,Run C.M.C.,111.94,Im George K,95.84,False
+2021,9,Party Party Party Party,97.7,Slop 'em  up,86.48,False
+2021,10,Is Saquon  Toast? Yes,94.8,Fantasy  Football Team ,122.74,False
+2021,10,Run C.M.C.,118.32,Leaping  Gnome's,104.54,False
+2021,10,Team Bag,120.32,Party Party Party Party,76.94,False
+2021,10,Im George K,140.54,Chuba Chubb,89.04,False
+2021,10,Darth  Goose,71.12,Slop 'em  up,92.32,False
+2021,11,Run C.M.C.,82.9,Party Party Party Party,145.08,False
+2021,11,Is Saquon  Toast? Yes,83.98,Im George K,109.3,False
+2021,11,Slop 'em  up,104.28,Fantasy  Football Team ,79.84,False
+2021,11,Leaping  Gnome's,119.56,Chuba Chubb,97.12,False
+2021,11,Darth  Goose,126.08,Team Bag,116.5,False
+2021,12,Im George K,62.1,Slop 'em  up,55.06,False
+2021,12,Chuba Chubb,66.3,Run C.M.C.,117.9,False
+2021,12,Party Party Party Party,114.88,Darth  Goose,100.98,False
+2021,12,Leaping  Gnome's,131.86,Is Saquon  Toast? Yes,98.74,False
+2021,12,Fantasy  Football Team ,102.7,Team Bag,116.08,False
+2021,13,Chuba Chubb,109.7,Darth  Goose,111.1,False
+2021,13,Im George K,90.86,Leaping  Gnome's,135.9,False
+2021,13,Team Bag,104.3,Slop 'em  up,109.06,False
+2021,13,Run C.M.C.,130.02,Is Saquon  Toast? Yes,99.62,False
+2021,13,Fantasy  Football Team ,78.62,Party Party Party Party,151.86,False
+2021,14,Team Bag,128.24,Is Saquon  Toast? Yes,130.72,False
+2021,14,Fantasy  Football Team ,106.04,Run C.M.C.,89.98,False
+2021,14,Party Party Party Party,94.42,Im George K,110.02,False
+2021,14,Slop 'em  up,94.42,Chuba Chubb,112.02,False
+2021,14,Darth  Goose,114.08,Leaping  Gnome's,188.82,False
+2021,15,Slop 'em  up,94.24,Run C.M.C.,132.7,True
+2021,15,Leaping  Gnome's,92.5,Darth  Goose,67.16,True
+2021,15,Chuba Chubb,81.58,Fantasy  Football Team ,55.18,True
+2021,15,Im George K,96.3,Is Saquon  Toast? Yes,70.66,True
+2021,16,Party Party Party Party,86.4,Run C.M.C.,129.74,True
+2021,16,Team Bag,130.18,Leaping  Gnome's,123.06,True
+2021,16,Slop 'em  up,81.66,Darth  Goose,98.08,True
+2021,16,Chuba Chubb,127.4,Im George K,107.12,True
+2021,16,Fantasy  Football Team ,132.4,Is Saquon  Toast? Yes,91.38,True
+2021,17,Team Bag,90.02,Run C.M.C.,150.84,True
+2021,17,Party Party Party Party,136.02,Leaping  Gnome's,107.9,True
+2021,17,Slop 'em  up,76.36,Darth  Goose,113.76,True
+2021,17,Chuba Chubb,91.44,Fantasy  Football Team ,122.44,True
+2021,17,Im George K,96.96,Is Saquon  Toast? Yes,92.9,True

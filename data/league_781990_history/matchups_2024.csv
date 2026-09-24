@@ -1,0 +1,85 @@
+year,week,home_team,home_score,away_team,away_score,playoff
+2024,1,Team,108.28,Rijan Bobinson,140.98,False
+2024,1,Personal Caddy For Hire,118.88,Brockenheimer,71.36,False
+2024,1,Pay Chase and Chase,75.64,Joeman Sachs,61.72,False
+2024,1,Titans Kickoff TD,95.86,Captain Kirk,129.42,False
+2024,1,Women in the Kitchen ,136.1,The Joe Joe Siwas,77.46,False
+2024,2,Rijan Bobinson,122.14,Brockenheimer,136.62,False
+2024,2,Joeman Sachs,102.42,Team,112.36,False
+2024,2,Captain Kirk,114.08,Personal Caddy For Hire,90.26,False
+2024,2,The Joe Joe Siwas,94.42,Pay Chase and Chase,123.54,False
+2024,2,Women in the Kitchen ,125.04,Titans Kickoff TD,91.0,False
+2024,3,Joeman Sachs,70.64,Rijan Bobinson,149.38,False
+2024,3,Brockenheimer,112.38,Captain Kirk,93.98,False
+2024,3,Team,38.28,The Joe Joe Siwas,95.96,False
+2024,3,Personal Caddy For Hire,143.22,Women in the Kitchen ,157.36,False
+2024,3,Pay Chase and Chase,117.68,Titans Kickoff TD,104.1,False
+2024,4,Rijan Bobinson,98.58,Captain Kirk,134.34,False
+2024,4,The Joe Joe Siwas,86.58,Joeman Sachs,117.72,False
+2024,4,Women in the Kitchen ,104.82,Brockenheimer,66.02,False
+2024,4,Titans Kickoff TD,105.6,Team,96.08,False
+2024,4,Pay Chase and Chase,123.7,Personal Caddy For Hire,99.4,False
+2024,5,The Joe Joe Siwas,132.98,Rijan Bobinson,96.3,False
+2024,5,Captain Kirk,130.12,Women in the Kitchen ,115.02,False
+2024,5,Joeman Sachs,98.2,Titans Kickoff TD,110.94,False
+2024,5,Brockenheimer,106.66,Pay Chase and Chase,118.26,False
+2024,5,Team,106.94,Personal Caddy For Hire,100.34,False
+2024,6,Rijan Bobinson,107.36,Women in the Kitchen ,99.16,False
+2024,6,Titans Kickoff TD,112.38,The Joe Joe Siwas,158.22,False
+2024,6,Pay Chase and Chase,85.6,Captain Kirk,110.22,False
+2024,6,Personal Caddy For Hire,120.4,Joeman Sachs,131.66,False
+2024,6,Team,88.6,Brockenheimer,107.82,False
+2024,7,Titans Kickoff TD,83.44,Rijan Bobinson,117.6,False
+2024,7,Women in the Kitchen ,97.34,Pay Chase and Chase,84.28,False
+2024,7,The Joe Joe Siwas,105.54,Personal Caddy For Hire,131.82,False
+2024,7,Captain Kirk,109.34,Team,114.66,False
+2024,7,Joeman Sachs,89.76,Brockenheimer,97.68,False
+2024,8,Rijan Bobinson,111.08,Pay Chase and Chase,101.44,False
+2024,8,Personal Caddy For Hire,116.42,Titans Kickoff TD,103.9,False
+2024,8,Team,122.16,Women in the Kitchen ,131.84,False
+2024,8,Brockenheimer,123.9,The Joe Joe Siwas,126.76,False
+2024,8,Joeman Sachs,99.84,Captain Kirk,114.36,False
+2024,9,Personal Caddy For Hire,105.2,Rijan Bobinson,115.26,False
+2024,9,Pay Chase and Chase,118.98,Team,86.32,False
+2024,9,Titans Kickoff TD,74.2,Brockenheimer,119.02,False
+2024,9,Women in the Kitchen ,137.44,Joeman Sachs,80.6,False
+2024,9,The Joe Joe Siwas,127.04,Captain Kirk,125.9,False
+2024,10,Rijan Bobinson,106.84,Team,89.26,False
+2024,10,Brockenheimer,90.82,Personal Caddy For Hire,80.7,False
+2024,10,Joeman Sachs,87.38,Pay Chase and Chase,141.84,False
+2024,10,Captain Kirk,95.5,Titans Kickoff TD,114.04,False
+2024,10,The Joe Joe Siwas,106.42,Women in the Kitchen ,95.58,False
+2024,11,Brockenheimer,143.56,Rijan Bobinson,82.2,False
+2024,11,Team,114.48,Joeman Sachs,71.04,False
+2024,11,Personal Caddy For Hire,112.28,Captain Kirk,93.48,False
+2024,11,Pay Chase and Chase,92.94,The Joe Joe Siwas,135.44,False
+2024,11,Titans Kickoff TD,128.48,Women in the Kitchen ,120.44,False
+2024,12,Rijan Bobinson,114.7,Joeman Sachs,110.26,False
+2024,12,Captain Kirk,86.98,Brockenheimer,92.58,False
+2024,12,The Joe Joe Siwas,87.26,Team,86.02,False
+2024,12,Women in the Kitchen ,154.1,Personal Caddy For Hire,120.68,False
+2024,12,Titans Kickoff TD,94.06,Pay Chase and Chase,135.26,False
+2024,13,Captain Kirk,130.78,Rijan Bobinson,102.6,False
+2024,13,Joeman Sachs,95.42,The Joe Joe Siwas,105.16,False
+2024,13,Brockenheimer,128.56,Women in the Kitchen ,111.14,False
+2024,13,Team,93.98,Titans Kickoff TD,118.68,False
+2024,13,Personal Caddy For Hire,138.22,Pay Chase and Chase,128.44,False
+2024,14,Rijan Bobinson,153.66,The Joe Joe Siwas,112.96,False
+2024,14,Women in the Kitchen ,118.74,Captain Kirk,100.84,False
+2024,14,Titans Kickoff TD,122.22,Joeman Sachs,52.62,False
+2024,14,Pay Chase and Chase,140.88,Brockenheimer,88.5,False
+2024,14,Personal Caddy For Hire,129.48,Team,137.32,False
+2024,15,The Joe Joe Siwas,92.54,Captain Kirk,172.3,True
+2024,15,Rijan Bobinson,106.66,Brockenheimer,120.98,True
+2024,15,Personal Caddy For Hire,130.88,Titans Kickoff TD,146.16,True
+2024,15,Team,112.5,Joeman Sachs,76.5,True
+2024,16,Women in the Kitchen ,188.12,Captain Kirk,131.28,True
+2024,16,Pay Chase and Chase,120.14,Brockenheimer,169.32,True
+2024,16,Rijan Bobinson,115.08,The Joe Joe Siwas,113.18,True
+2024,16,Titans Kickoff TD,131.24,Team,87.16,True
+2024,16,Personal Caddy For Hire,98.96,Joeman Sachs,45.74,True
+2024,17,Women in the Kitchen ,145.18,Brockenheimer,149.88,True
+2024,17,Pay Chase and Chase,115.78,Captain Kirk,109.22,True
+2024,17,Rijan Bobinson,124.54,The Joe Joe Siwas,73.78,True
+2024,17,Personal Caddy For Hire,94.78,Titans Kickoff TD,112.32,True
+2024,17,Team,126.84,Joeman Sachs,49.6,True

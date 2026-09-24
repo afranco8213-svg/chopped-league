@@ -1,0 +1,161 @@
+year,round,pick,team,player,keeper
+2021,1,1,Run C.M.C.,Christian McCaffrey,False
+2021,1,2,Leaping  Gnome's,Dalvin Cook,False
+2021,1,3,Slop 'em  up,Alvin Kamara,False
+2021,1,4,Party Party Party Party,Davante Adams,False
+2021,1,5,Fantasy  Football Team ,Derrick Henry,False
+2021,1,6,Darth  Goose,Najee Harris,False
+2021,1,7,Is Saquon  Toast? Yes,Saquon Barkley,False
+2021,1,8,Team Bag,Ezekiel Elliott,False
+2021,1,9,Im George K,Aaron Jones,False
+2021,1,10,Chuba Chubb,Travis Kelce,False
+2021,2,1,Chuba Chubb,Nick Chubb,False
+2021,2,2,Im George K,Austin Ekeler,False
+2021,2,3,Team Bag,Tyreek Hill,False
+2021,2,4,Is Saquon  Toast? Yes,Jonathan Taylor,False
+2021,2,5,Darth  Goose,Stefon Diggs,False
+2021,2,6,Fantasy  Football Team ,Antonio Gibson,False
+2021,2,7,Party Party Party Party,DK Metcalf,False
+2021,2,8,Slop 'em  up,DeAndre Hopkins,False
+2021,2,9,Leaping  Gnome's,Justin Jefferson,False
+2021,2,10,Run C.M.C.,Calvin Ridley,False
+2021,3,1,Run C.M.C.,Joe Mixon,False
+2021,3,2,Leaping  Gnome's,A.J. Brown,False
+2021,3,3,Slop 'em  up,James Robinson,False
+2021,3,4,Party Party Party Party,Darren Waller,False
+2021,3,5,Fantasy  Football Team ,Keenan Allen,False
+2021,3,6,Darth  Goose,Mike Evans,False
+2021,3,7,Is Saquon  Toast? Yes,Allen Robinson II,False
+2021,3,8,Team Bag,Chris Carson,False
+2021,3,9,Im George K,George Kittle,False
+2021,3,10,Chuba Chubb,Terry McLaurin,False
+2021,4,1,Chuba Chubb,Robert Woods,False
+2021,4,2,Im George K,Patrick Mahomes,False
+2021,4,3,Team Bag,Cooper Kupp,False
+2021,4,4,Is Saquon  Toast? Yes,Mike Davis,False
+2021,4,5,Darth  Goose,Adam Thielen,False
+2021,4,6,Fantasy  Football Team ,Amari Cooper,False
+2021,4,7,Party Party Party Party,Clyde Edwards-Helaire,False
+2021,4,8,Slop 'em  up,Chris Godwin,False
+2021,4,9,Leaping  Gnome's,Miles Sanders,False
+2021,4,10,Run C.M.C.,David Montgomery,False
+2021,5,1,Run C.M.C.,Julio Jones,False
+2021,5,2,Leaping  Gnome's,Josh Allen,False
+2021,5,3,Slop 'em  up,Kyle Pitts,False
+2021,5,4,Party Party Party Party,Josh Jacobs,False
+2021,5,5,Fantasy  Football Team ,Kyler Murray,False
+2021,5,6,Darth  Goose,D'Andre Swift,False
+2021,5,7,Is Saquon  Toast? Yes,Tyler Lockett,False
+2021,5,8,Team Bag,Gus Edwards,False
+2021,5,9,Im George K,Myles Gaskin,False
+2021,5,10,Chuba Chubb,Javonte Williams,False
+2021,6,1,Chuba Chubb,CeeDee Lamb,False
+2021,6,2,Im George K,Odell Beckham Jr.,False
+2021,6,3,Team Bag,DJ Moore,False
+2021,6,4,Is Saquon  Toast? Yes,Kenny Golladay,False
+2021,6,5,Darth  Goose,Robert Tonyan,False
+2021,6,6,Fantasy  Football Team ,Kareem Hunt,False
+2021,6,7,Party Party Party Party,Darrell Henderson Jr.,False
+2021,6,8,Slop 'em  up,Raheem Mostert,False
+2021,6,9,Leaping  Gnome's,T.J. Hockenson,False
+2021,6,10,Run C.M.C.,Mark Andrews,False
+2021,7,1,Run C.M.C.,Lamar Jackson,False
+2021,7,2,Leaping  Gnome's,Brandon Aiyuk,False
+2021,7,3,Slop 'em  up,Diontae Johnson,False
+2021,7,4,Party Party Party Party,Robby Anderson,False
+2021,7,5,Fantasy  Football Team ,Chase Edmonds,False
+2021,7,6,Darth  Goose,Corey Davis,False
+2021,7,7,Is Saquon  Toast? Yes,Justin Herbert,False
+2021,7,8,Team Bag,Aaron Rodgers,False
+2021,7,9,Im George K,DeVonta Smith,False
+2021,7,10,Chuba Chubb,Michael Thomas,False
+2021,8,1,Chuba Chubb,Courtland Sutton,False
+2021,8,2,Im George K,JuJu Smith-Schuster,False
+2021,8,3,Team Bag,Logan Thomas,False
+2021,8,4,Is Saquon  Toast? Yes,Tyler Higbee,False
+2021,8,5,Darth  Goose,Damien Harris,False
+2021,8,6,Fantasy  Football Team ,Laviska Shenault Jr.,False
+2021,8,7,Party Party Party Party,Tee Higgins,False
+2021,8,8,Slop 'em  up,Sony Michel,False
+2021,8,9,Leaping  Gnome's,Leonard Fournette,False
+2021,8,10,Run C.M.C.,Chase Claypool,False
+2021,9,1,Run C.M.C.,Ja'Marr Chase,False
+2021,9,2,Leaping  Gnome's,Jerry Jeudy,False
+2021,9,3,Slop 'em  up,Jaylen Waddle,False
+2021,9,4,Party Party Party Party,Russell Wilson,False
+2021,9,5,Fantasy  Football Team ,Kenyan Drake,False
+2021,9,6,Darth  Goose,Matthew Stafford,False
+2021,9,7,Is Saquon  Toast? Yes,Nyheim Hines,False
+2021,9,8,Team Bag,Antonio Brown,False
+2021,9,9,Im George K,Zack Moss,False
+2021,9,10,Chuba Chubb,Melvin Gordon III,False
+2021,10,1,Chuba Chubb,Devin Singletary,False
+2021,10,2,Im George K,Cole Beasley,False
+2021,10,3,Team Bag,Ronald Jones II,False
+2021,10,4,Is Saquon  Toast? Yes,DJ Chark Jr.,False
+2021,10,5,Darth  Goose,AJ Dillon,False
+2021,10,6,Fantasy  Football Team ,Dak Prescott,False
+2021,10,7,Party Party Party Party,Trey Sermon,False
+2021,10,8,Slop 'em  up,Curtis Samuel,False
+2021,10,9,Leaping  Gnome's,Jarvis Landry,False
+2021,10,10,Run C.M.C.,Michael Carter,False
+2021,11,1,Run C.M.C.,Brandin Cooks,False
+2021,11,2,Leaping  Gnome's,James Conner,False
+2021,11,3,Slop 'em  up,Michael Pittman Jr.,False
+2021,11,4,Party Party Party Party,Deebo Samuel,False
+2021,11,5,Fantasy  Football Team ,Noah Fant,False
+2021,11,6,Darth  Goose,Marquise Brown,False
+2021,11,7,Is Saquon  Toast? Yes,Marvin Jones Jr.,False
+2021,11,8,Team Bag,Marquez Callaway,False
+2021,11,9,Im George K,Jamaal Williams,False
+2021,11,10,Chuba Chubb,Ryan Tannehill,False
+2021,12,1,Chuba Chubb,Alexander Mattison,False
+2021,12,2,Im George K,Malcolm Brown,False
+2021,12,3,Team Bag,Tony Pollard,False
+2021,12,4,Is Saquon  Toast? Yes,A.J. Green,False
+2021,12,5,Darth  Goose,J.D. McKissic,False
+2021,12,6,Fantasy  Football Team ,Jonnu Smith,False
+2021,12,7,Party Party Party Party,Rams D/ST,False
+2021,12,8,Slop 'em  up,Carlos Hyde,False
+2021,12,9,Leaping  Gnome's,Steelers D/ST,False
+2021,12,10,Run C.M.C.,Dallas Goedert,False
+2021,13,1,Run C.M.C.,William Fuller V,False
+2021,13,2,Leaping  Gnome's,T.Y. Hilton,False
+2021,13,3,Slop 'em  up,Latavius Murray,False
+2021,13,4,Party Party Party Party,Henry Ruggs III,False
+2021,13,5,Fantasy  Football Team ,Evan Engram,False
+2021,13,6,Darth  Goose,Commanders D/ST,False
+2021,13,7,Is Saquon  Toast? Yes,Buccaneers D/ST,False
+2021,13,8,Team Bag,Ravens D/ST,False
+2021,13,9,Im George K,Darnell Mooney,False
+2021,13,10,Chuba Chubb,Michael Gallup,False
+2021,14,1,Chuba Chubb,Justin Tucker,False
+2021,14,2,Im George K,Colts D/ST,False
+2021,14,3,Team Bag,Rashaad Penny,False
+2021,14,4,Is Saquon  Toast? Yes,Devontae Booker,False
+2021,14,5,Darth  Goose,Benny Snell Jr.,False
+2021,14,6,Fantasy  Football Team ,Patriots D/ST,False
+2021,14,7,Party Party Party Party,Tyler Boyd,False
+2021,14,8,Slop 'em  up,49ers D/ST,False
+2021,14,9,Leaping  Gnome's,Harrison Butker,False
+2021,14,10,Run C.M.C.,Bills D/ST,False
+2021,15,1,Run C.M.C.,David Johnson,False
+2021,15,2,Leaping  Gnome's,Wayne Gallman,False
+2021,15,3,Slop 'em  up,Younghoe Koo,False
+2021,15,4,Party Party Party Party,Elijah Moore,False
+2021,15,5,Fantasy  Football Team ,Justin Fields,False
+2021,15,6,Darth  Goose,Jason Sanders,False
+2021,15,7,Is Saquon  Toast? Yes,Tom Brady,False
+2021,15,8,Team Bag,Rodrigo Blankenship,False
+2021,15,9,Im George K,Greg Zuerlein,False
+2021,15,10,Chuba Chubb,Tevin Coleman,False
+2021,16,1,Chuba Chubb,Vikings D/ST,False
+2021,16,2,Im George K,Emmanuel Sanders,False
+2021,16,3,Team Bag,Samaje Perine,False
+2021,16,4,Is Saquon  Toast? Yes,Matt Gay,False
+2021,16,5,Darth  Goose,Jameis Winston,False
+2021,16,6,Fantasy  Football Team ,Mason Crosby,False
+2021,16,7,Party Party Party Party,Daniel Carlson,False
+2021,16,8,Slop 'em  up,Jalen Hurts,False
+2021,16,9,Leaping  Gnome's,Ryan Fitzpatrick,False
+2021,16,10,Run C.M.C.,Matt Prater,False

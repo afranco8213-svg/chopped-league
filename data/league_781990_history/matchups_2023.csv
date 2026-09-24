@@ -1,0 +1,85 @@
+year,week,home_team,home_score,away_team,away_score,playoff
+2023,1,Dead Inside ,109.74,Love White Rice ,76.48,False
+2023,1,Joeman Sachs,100.64,Captain Kirk,73.86,False
+2023,1,Keenan Allen and the Cats,88.46,Mr. Pfizer,75.8,False
+2023,1,Tua Turndaballova,137.44,Bennie and the Jets ,71.24,False
+2023,1,Wookie Wunningbacks,119.72,Need to AddiZyn,84.44,False
+2023,2,Captain Kirk,103.18,Mr. Pfizer,120.22,False
+2023,2,Bennie and the Jets ,135.66,Dead Inside ,88.94,False
+2023,2,Need to AddiZyn,88.34,Love White Rice ,118.28,False
+2023,2,Tua Turndaballova,86.96,Joeman Sachs,103.0,False
+2023,2,Wookie Wunningbacks,121.3,Keenan Allen and the Cats,107.0,False
+2023,3,Bennie and the Jets ,116.72,Need to AddiZyn,73.06,False
+2023,3,Captain Kirk,130.38,Tua Turndaballova,168.86,False
+2023,3,Mr. Pfizer,145.58,Wookie Wunningbacks,83.26,False
+2023,3,Dead Inside ,87.46,Joeman Sachs,118.78,False
+2023,3,Love White Rice ,130.08,Keenan Allen and the Cats,108.86,False
+2023,4,Tua Turndaballova,106.68,Wookie Wunningbacks,106.24,False
+2023,4,Joeman Sachs,103.02,Bennie and the Jets ,114.9,False
+2023,4,Keenan Allen and the Cats,103.06,Need to AddiZyn,131.7,False
+2023,4,Dead Inside ,109.32,Captain Kirk,115.84,False
+2023,4,Love White Rice ,89.56,Mr. Pfizer,104.06,False
+2023,5,Joeman Sachs,87.54,Keenan Allen and the Cats,71.36,False
+2023,5,Tua Turndaballova,132.12,Dead Inside ,100.12,False
+2023,5,Wookie Wunningbacks,70.96,Love White Rice ,128.36,False
+2023,5,Bennie and the Jets ,94.26,Captain Kirk,107.24,False
+2023,5,Need to AddiZyn,139.08,Mr. Pfizer,133.52,False
+2023,6,Love White Rice ,115.14,Captain Kirk,108.92,False
+2023,6,Mr. Pfizer,96.9,Bennie and the Jets ,88.26,False
+2023,6,Need to AddiZyn,105.02,Tua Turndaballova,111.58,False
+2023,6,Wookie Wunningbacks,58.66,Joeman Sachs,99.84,False
+2023,6,Keenan Allen and the Cats,105.98,Dead Inside ,118.4,False
+2023,7,Bennie and the Jets ,103.5,Love White Rice ,113.96,False
+2023,7,Tua Turndaballova,94.64,Mr. Pfizer,149.16,False
+2023,7,Joeman Sachs,120.86,Need to AddiZyn,82.66,False
+2023,7,Dead Inside ,82.18,Wookie Wunningbacks,110.64,False
+2023,7,Captain Kirk,112.48,Keenan Allen and the Cats,50.76,False
+2023,8,Love White Rice ,115.16,Tua Turndaballova,112.16,False
+2023,8,Mr. Pfizer,106.36,Joeman Sachs,73.4,False
+2023,8,Need to AddiZyn,140.78,Dead Inside ,135.66,False
+2023,8,Wookie Wunningbacks,108.8,Captain Kirk,97.98,False
+2023,8,Keenan Allen and the Cats,107.82,Bennie and the Jets ,140.76,False
+2023,9,Joeman Sachs,75.9,Love White Rice ,124.72,False
+2023,9,Dead Inside ,86.86,Tua Turndaballova,80.52,False
+2023,9,Mr. Pfizer,95.58,Keenan Allen and the Cats,111.14,False
+2023,9,Captain Kirk,90.58,Bennie and the Jets ,118.52,False
+2023,9,Need to AddiZyn,118.4,Wookie Wunningbacks,107.92,False
+2023,10,Dead Inside ,112.96,Mr. Pfizer,116.34,False
+2023,10,Captain Kirk,85.62,Joeman Sachs,101.12,False
+2023,10,Love White Rice ,124.68,Need to AddiZyn,113.48,False
+2023,10,Bennie and the Jets ,123.78,Tua Turndaballova,105.86,False
+2023,10,Keenan Allen and the Cats,113.62,Wookie Wunningbacks,110.84,False
+2023,11,Captain Kirk,113.76,Need to AddiZyn,94.16,False
+2023,11,Dead Inside ,111.36,Bennie and the Jets ,143.7,False
+2023,11,Wookie Wunningbacks,120.94,Mr. Pfizer,83.3,False
+2023,11,Joeman Sachs,110.68,Tua Turndaballova,98.6,False
+2023,11,Keenan Allen and the Cats,103.0,Love White Rice ,98.34,False
+2023,12,Bennie and the Jets ,136.06,Wookie Wunningbacks,123.06,False
+2023,12,Tua Turndaballova,128.04,Captain Kirk,83.78,False
+2023,12,Need to AddiZyn,118.08,Keenan Allen and the Cats,104.78,False
+2023,12,Joeman Sachs,102.52,Dead Inside ,132.94,False
+2023,12,Mr. Pfizer,111.8,Love White Rice ,104.2,False
+2023,13,Tua Turndaballova,110.0,Keenan Allen and the Cats,98.48,False
+2023,13,Bennie and the Jets ,101.84,Joeman Sachs,120.8,False
+2023,13,Love White Rice ,142.52,Wookie Wunningbacks,125.26,False
+2023,13,Captain Kirk,90.34,Dead Inside ,119.06,False
+2023,13,Mr. Pfizer,97.02,Need to AddiZyn,126.4,False
+2023,14,Love White Rice ,102.72,Dead Inside ,128.44,False
+2023,14,Mr. Pfizer,96.58,Captain Kirk,139.34,False
+2023,14,Need to AddiZyn,110.42,Bennie and the Jets ,105.12,False
+2023,14,Wookie Wunningbacks,78.34,Tua Turndaballova,72.3,False
+2023,14,Keenan Allen and the Cats,89.54,Joeman Sachs,103.04,False
+2023,15,Mr. Pfizer,79.72,Tua Turndaballova,108.12,True
+2023,15,Bennie and the Jets ,77.86,Need to AddiZyn,87.08,True
+2023,15,Dead Inside ,139.66,Wookie Wunningbacks,73.7,True
+2023,15,Captain Kirk,97.34,Keenan Allen and the Cats,57.66,True
+2023,16,Joeman Sachs,113.3,Tua Turndaballova,91.72,True
+2023,16,Love White Rice ,95.74,Need to AddiZyn,88.0,True
+2023,16,Bennie and the Jets ,129.68,Mr. Pfizer,75.94,True
+2023,16,Dead Inside ,119.22,Captain Kirk,112.08,True
+2023,16,Wookie Wunningbacks,170.38,Keenan Allen and the Cats,106.8,True
+2023,17,Joeman Sachs,124.2,Love White Rice ,95.54,True
+2023,17,Tua Turndaballova,115.18,Need to AddiZyn,118.82,True
+2023,17,Bennie and the Jets ,147.66,Mr. Pfizer,105.48,True
+2023,17,Dead Inside ,145.6,Wookie Wunningbacks,40.22,True
+2023,17,Captain Kirk,98.94,Keenan Allen and the Cats,59.66,True
