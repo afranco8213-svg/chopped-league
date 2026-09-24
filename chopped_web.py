@@ -104,6 +104,48 @@ def get_espn_week_data(week):
     except Exception as e:
         print(f"Could not load ESPN Week {week}: {e}")
         return None
+def calculate_elimination_history(current_week):
+    history = {"eliminated": []}
+    eliminated_ids = set()
+
+    # Only examine weeks before the current ESPN matchup week.
+    for week in range(1, current_week):
+
+        week_data = get_espn_week_data(week)
+
+        # Never eliminate a team if ESPN data is missing or
+        # the week's matchups have not been finalized.
+        if not week_data or week_data["status"] != "FINAL":
+            print(f"Skipping Week {week}: final data unavailable")
+            break
+
+        active_teams = [
+            team
+            for team in week_data["teams"]
+            if team["team_id"] not in eliminated_ids
+        ]
+
+        if not active_teams:
+            break
+
+        lowest_score = min(
+            team["score"]
+            for team in active_teams
+        )
+
+        # All teams tied for the lowest final score are eliminated.
+        for team in active_teams:
+            if abs(team["score"] - lowest_score) < 0.001:
+                history["eliminated"].append({
+                    "week": week,
+                    "team_id": team["team_id"],
+                    "team_name": team["team_name"],
+                    "score": team["score"]
+                })
+
+                eliminated_ids.add(team["team_id"])
+
+    return history
 BASE_DIR = Path(__file__).resolve().parent
 HISTORY_FILE = BASE_DIR / "chopped_history.json"
 
@@ -624,17 +666,16 @@ HTML = """
 
 def load_data():
 
-    history = {"eliminated": []}
-
-    if HISTORY_FILE.exists():
-
-        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-            history = json.load(f)
+    
 
 
     current_data = {}
 
     espn_week = get_espn_current_week()
+    history = {"eliminated": []}
+
+    if espn_week is not None:
+        history = calculate_elimination_history(espn_week)
 
     if espn_week is not None:
         espn_data = get_espn_week_data(espn_week)
