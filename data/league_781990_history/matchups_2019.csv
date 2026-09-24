@@ -1,0 +1,80 @@
+year,week,home_team,home_score,away_team,away_score,playoff
+2019,1,Dont call it  A come back,74.5,200 .0,101.82,False
+2019,1,Second Round Bye,128.06,New Season New me,115.42,False
+2019,1,B T C,105.06,I  Absolutely suck,125.02,False
+2019,1,Doug Dimmadome,77.16,Autodrafts 2.0,167.4,False
+2019,1,Full Chubb,122.1,Fourn(ette) ication,126.72,False
+2019,2,New Season New me,116.46,I  Absolutely suck,81.96,False
+2019,2,Autodrafts 2.0,86.04,Dont call it  A come back,106.12,False
+2019,2,Fourn(ette) ication,125.22,200 .0,114.42,False
+2019,2,Doug Dimmadome,106.12,Second Round Bye,98.6,False
+2019,2,Full Chubb,129.98,B T C,103.86,False
+2019,3,Autodrafts 2.0,135.94,Fourn(ette) ication,102.22,False
+2019,3,New Season New me,83.84,Doug Dimmadome,134.42,False
+2019,3,I  Absolutely suck,114.3,Full Chubb,126.18,False
+2019,3,Dont call it  A come back,82.18,Second Round Bye,144.86,False
+2019,3,200 .0,128.36,B T C,132.14,False
+2019,4,Doug Dimmadome,58.9,Full Chubb,145.38,False
+2019,4,Second Round Bye,135.68,Autodrafts 2.0,78.02,False
+2019,4,B T C,105.6,Fourn(ette) ication,124.14,False
+2019,4,Dont call it  A come back,72.5,New Season New me,76.3,False
+2019,4,200 .0,133.2,I  Absolutely suck,91.78,False
+2019,5,Second Round Bye,114.8,B T C,147.76,False
+2019,5,Doug Dimmadome,95.98,Dont call it  A come back,94.72,False
+2019,5,Full Chubb,142.44,200 .0,127.24,False
+2019,5,Autodrafts 2.0,150.26,New Season New me,125.94,False
+2019,5,Fourn(ette) ication,140.52,I  Absolutely suck,88.84,False
+2019,6,200 .0,94.02,New Season New me,101.9,False
+2019,6,I  Absolutely suck,116.22,Autodrafts 2.0,81.92,False
+2019,6,Fourn(ette) ication,154.1,Doug Dimmadome,94.92,False
+2019,6,Full Chubb,125.14,Second Round Bye,137.84,False
+2019,6,B T C,89.6,Dont call it  A come back,89.66,False
+2019,7,Autodrafts 2.0,97.46,200 .0,105.24,False
+2019,7,Doug Dimmadome,107.98,I  Absolutely suck,113.16,False
+2019,7,Second Round Bye,105.06,Fourn(ette) ication,109.26,False
+2019,7,Dont call it  A come back,109.16,Full Chubb,78.12,False
+2019,7,New Season New me,66.42,B T C,101.04,False
+2019,8,200 .0,100.02,Doug Dimmadome,107.26,False
+2019,8,I  Absolutely suck,91.0,Second Round Bye,161.32,False
+2019,8,Fourn(ette) ication,109.1,Dont call it  A come back,101.96,False
+2019,8,Full Chubb,129.48,New Season New me,104.66,False
+2019,8,B T C,125.48,Autodrafts 2.0,128.4,False
+2019,9,Second Round Bye,115.96,200 .0,59.3,False
+2019,9,Dont call it  A come back,134.1,Doug Dimmadome,101.6,False
+2019,9,I  Absolutely suck,71.84,B T C,98.3,False
+2019,9,New Season New me,132.34,Autodrafts 2.0,139.18,False
+2019,9,Fourn(ette) ication,96.74,Full Chubb,142.12,False
+2019,10,Dont call it  A come back,90.12,I  Absolutely suck,90.42,False
+2019,10,New Season New me,95.02,Second Round Bye,107.48,False
+2019,10,200 .0,87.08,Fourn(ette) ication,115.76,False
+2019,10,Autodrafts 2.0,128.14,Doug Dimmadome,106.44,False
+2019,10,B T C,145.52,Full Chubb,129.72,False
+2019,11,New Season New me,87.36,Fourn(ette) ication,124.2,False
+2019,11,Dont call it  A come back,108.94,Autodrafts 2.0,81.08,False
+2019,11,Full Chubb,77.78,I  Absolutely suck,105.42,False
+2019,11,Second Round Bye,82.64,Doug Dimmadome,150.94,False
+2019,11,B T C,119.82,200 .0,94.22,False
+2019,12,Autodrafts 2.0,122.98,Full Chubb,100.36,False
+2019,12,Doug Dimmadome,99.9,New Season New me,94.22,False
+2019,12,Fourn(ette) ication,175.0,B T C,119.02,False
+2019,12,Second Round Bye,73.74,Dont call it  A come back,81.5,False
+2019,12,I  Absolutely suck,89.16,200 .0,129.04,False
+2019,13,Doug Dimmadome,108.84,B T C,91.52,False
+2019,13,Autodrafts 2.0,101.7,Second Round Bye,99.84,False
+2019,13,200 .0,119.56,Full Chubb,93.4,False
+2019,13,New Season New me,73.06,Dont call it  A come back,107.14,False
+2019,13,I  Absolutely suck,96.52,Fourn(ette) ication,100.1,False
+2019,14,Doug Dimmadome,99.54,Dont call it  A come back,98.46,True
+2019,14,Second Round Bye,102.88,Full Chubb,93.6,True
+2019,14,B T C,150.24,200 .0,105.8,True
+2019,14,I  Absolutely suck,60.5,New Season New me,115.98,True
+2019,15,Fourn(ette) ication,120.56,Doug Dimmadome,143.22,True
+2019,15,Autodrafts 2.0,151.3,Second Round Bye,99.2,True
+2019,15,Dont call it  A come back,101.76,Full Chubb,120.28,True
+2019,15,B T C,170.92,New Season New me,126.82,True
+2019,15,200 .0,104.68,I  Absolutely suck,101.22,True
+2019,16,Autodrafts 2.0,144.24,Doug Dimmadome,92.66,True
+2019,16,Fourn(ette) ication,110.02,Second Round Bye,117.36,True
+2019,16,Dont call it  A come back,126.48,Full Chubb,76.02,True
+2019,16,B T C,140.1,200 .0,82.16,True
+2019,16,I  Absolutely suck,90.04,New Season New me,89.86,True

@@ -1,0 +1,85 @@
+year,week,home_team,home_score,away_team,away_score,playoff
+2022,1,Go 1-0 Today,78.02,My Body Deshauns Choice,109.9,False
+2022,1,Joeman Sachs,102.56,Derrick Henny in my Kupp,104.12,False
+2022,1,The Big  Tua,50.7,The Yips!,127.0,False
+2022,1,Chase Jefferson,126.92,Pierce  Walker,121.48,False
+2022,1,Slop 'em  up,111.22,Ice Cold DC's,138.28,False
+2022,2,Derrick Henny in my Kupp,108.18,The Yips!,89.3,False
+2022,2,Pierce  Walker,82.0,Go 1-0 Today,139.42,False
+2022,2,Ice Cold DC's,134.28,My Body Deshauns Choice,84.46,False
+2022,2,Chase Jefferson,86.26,Joeman Sachs,159.26,False
+2022,2,Slop 'em  up,159.92,The Big  Tua,112.86,False
+2022,3,Pierce  Walker,86.04,Ice Cold DC's,118.4,False
+2022,3,Derrick Henny in my Kupp,95.66,Chase Jefferson,100.7,False
+2022,3,The Yips!,103.38,Slop 'em  up,113.1,False
+2022,3,Go 1-0 Today,109.92,Joeman Sachs,86.28,False
+2022,3,My Body Deshauns Choice,94.0,The Big  Tua,83.74,False
+2022,4,Chase Jefferson,121.48,Slop 'em  up,97.86,False
+2022,4,Joeman Sachs,107.3,Pierce  Walker,128.0,False
+2022,4,The Big  Tua,71.2,Ice Cold DC's,99.42,False
+2022,4,Go 1-0 Today,102.26,Derrick Henny in my Kupp,144.48,False
+2022,4,My Body Deshauns Choice,133.08,The Yips!,107.56,False
+2022,5,Joeman Sachs,105.72,The Big  Tua,125.98,False
+2022,5,Chase Jefferson,129.8,Go 1-0 Today,115.26,False
+2022,5,Slop 'em  up,131.96,My Body Deshauns Choice,67.46,False
+2022,5,Pierce  Walker,95.04,Derrick Henny in my Kupp,107.9,False
+2022,5,Ice Cold DC's,111.76,The Yips!,112.08,False
+2022,6,My Body Deshauns Choice,74.4,Derrick Henny in my Kupp,77.58,False
+2022,6,The Yips!,100.82,Pierce  Walker,106.72,False
+2022,6,Ice Cold DC's,102.46,Chase Jefferson,127.3,False
+2022,6,Slop 'em  up,92.7,Joeman Sachs,76.02,False
+2022,6,The Big  Tua,81.44,Go 1-0 Today,119.5,False
+2022,7,Pierce  Walker,111.0,My Body Deshauns Choice,108.24,False
+2022,7,Chase Jefferson,134.84,The Yips!,84.52,False
+2022,7,Joeman Sachs,88.72,Ice Cold DC's,81.02,False
+2022,7,Go 1-0 Today,80.7,Slop 'em  up,135.5,False
+2022,7,Derrick Henny in my Kupp,105.26,The Big  Tua,126.34,False
+2022,8,My Body Deshauns Choice,86.94,Chase Jefferson,93.18,False
+2022,8,The Yips!,115.14,Joeman Sachs,135.78,False
+2022,8,Ice Cold DC's,95.12,Go 1-0 Today,148.38,False
+2022,8,Slop 'em  up,150.3,Derrick Henny in my Kupp,152.14,False
+2022,8,The Big  Tua,131.88,Pierce  Walker,88.5,False
+2022,9,Joeman Sachs,75.9,My Body Deshauns Choice,74.46,False
+2022,9,Go 1-0 Today,88.92,Chase Jefferson,107.14,False
+2022,9,The Yips!,99.34,The Big  Tua,113.08,False
+2022,9,Derrick Henny in my Kupp,116.8,Pierce  Walker,136.7,False
+2022,9,Ice Cold DC's,104.2,Slop 'em  up,151.02,False
+2022,10,Go 1-0 Today,120.96,The Yips!,121.28,False
+2022,10,Derrick Henny in my Kupp,69.3,Joeman Sachs,110.74,False
+2022,10,My Body Deshauns Choice,95.94,Ice Cold DC's,98.3,False
+2022,10,Pierce  Walker,84.74,Chase Jefferson,108.3,False
+2022,10,The Big  Tua,111.2,Slop 'em  up,110.5,False
+2022,11,Derrick Henny in my Kupp,124.2,Ice Cold DC's,161.88,False
+2022,11,Go 1-0 Today,115.06,Pierce  Walker,89.56,False
+2022,11,Slop 'em  up,141.2,The Yips!,101.32,False
+2022,11,Joeman Sachs,116.4,Chase Jefferson,96.8,False
+2022,11,The Big  Tua,86.94,My Body Deshauns Choice,87.24,False
+2022,12,Pierce  Walker,109.8,Slop 'em  up,142.02,False
+2022,12,Chase Jefferson,116.24,Derrick Henny in my Kupp,99.14,False
+2022,12,Ice Cold DC's,114.62,The Big  Tua,112.06,False
+2022,12,Joeman Sachs,138.26,Go 1-0 Today,92.36,False
+2022,12,The Yips!,89.1,My Body Deshauns Choice,101.94,False
+2022,13,Chase Jefferson,139.14,The Big  Tua,114.7,False
+2022,13,Pierce  Walker,88.02,Joeman Sachs,109.5,False
+2022,13,My Body Deshauns Choice,77.84,Slop 'em  up,122.3,False
+2022,13,Derrick Henny in my Kupp,85.24,Go 1-0 Today,96.94,False
+2022,13,The Yips!,140.16,Ice Cold DC's,134.42,False
+2022,14,My Body Deshauns Choice,91.0,Go 1-0 Today,82.42,False
+2022,14,The Yips!,106.7,Derrick Henny in my Kupp,103.36,False
+2022,14,Ice Cold DC's,82.88,Pierce  Walker,80.08,False
+2022,14,Slop 'em  up,98.48,Chase Jefferson,142.76,False
+2022,14,The Big  Tua,111.7,Joeman Sachs,105.28,False
+2022,15,Joeman Sachs,86.52,Derrick Henny in my Kupp,123.04,True
+2022,15,Ice Cold DC's,110.56,Go 1-0 Today,167.82,True
+2022,15,The Big  Tua,111.96,My Body Deshauns Choice,96.9,True
+2022,15,The Yips!,108.58,Pierce  Walker,111.04,True
+2022,16,Chase Jefferson,108.9,Derrick Henny in my Kupp,106.68,True
+2022,16,Slop 'em  up,105.3,Go 1-0 Today,119.06,True
+2022,16,Ice Cold DC's,91.78,Joeman Sachs,76.3,True
+2022,16,The Big  Tua,54.8,Pierce  Walker,105.86,True
+2022,16,My Body Deshauns Choice,140.66,The Yips!,82.26,True
+2022,17,Chase Jefferson,52.8,Go 1-0 Today,101.78,True
+2022,17,Slop 'em  up,161.2,Derrick Henny in my Kupp,131.88,True
+2022,17,Ice Cold DC's,89.7,Joeman Sachs,46.88,True
+2022,17,My Body Deshauns Choice,82.8,Pierce  Walker,66.42,True
+2022,17,The Big  Tua,102.7,The Yips!,111.8,True

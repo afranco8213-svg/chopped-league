@@ -1,0 +1,652 @@
+year,week,home_team,home_score,away_team,away_score,playoff
+2018,1,"LeÂÂVeon, Pick up the pen",129.14,Team Fisher,111.58,False
+2018,1,Tim Butler,126.66,Johnny Malandro Friends Friend,134.26,False
+2018,1,Team Carey,97.14,Bball And BBQ?,134.24,False
+2018,1,Large 66,80.54,Half Chubbs,108.0,False
+2018,1,Team donner,119.12,Thielan up Kelce,89.36,False
+2018,2,Johnny Malandro Friends Friend,135.8,Bball And BBQ?,135.5,False
+2018,2,Half Chubbs,82.3,"LeÂÂVeon, Pick up the pen",103.44,False
+2018,2,Thielan up Kelce,126.54,Team Fisher,106.26,False
+2018,2,Large 66,96.8,Tim Butler,138.06,False
+2018,2,Team donner,92.68,Team Carey,122.04,False
+2018,3,Half Chubbs,107.6,Thielan up Kelce,97.68,False
+2018,3,Johnny Malandro Friends Friend,97.54,Large 66,89.3,False
+2018,3,Bball And BBQ?,105.6,Team donner,125.64,False
+2018,3,"LeÂÂVeon, Pick up the pen",118.1,Tim Butler,101.16,False
+2018,3,Team Fisher,75.92,Team Carey,104.56,False
+2018,4,Large 66,132.7,Team donner,100.28,False
+2018,4,Tim Butler,125.88,Half Chubbs,133.42,False
+2018,4,Team Carey,94.66,Thielan up Kelce,132.9,False
+2018,4,"LeÂÂVeon, Pick up the pen",85.12,Johnny Malandro Friends Friend,135.2,False
+2018,4,Team Fisher,125.16,Bball And BBQ?,150.16,False
+2018,5,Tim Butler,115.0,Team Carey,123.22,False
+2018,5,Large 66,102.2,"LeÂÂVeon, Pick up the pen",103.58,False
+2018,5,Team donner,81.32,Team Fisher,107.32,False
+2018,5,Half Chubbs,129.94,Johnny Malandro Friends Friend,99.84,False
+2018,5,Thielan up Kelce,128.86,Bball And BBQ?,130.68,False
+2018,6,Team Fisher,97.0,Johnny Malandro Friends Friend,120.22,False
+2018,6,Bball And BBQ?,148.4,Half Chubbs,152.92,False
+2018,6,Thielan up Kelce,109.48,Large 66,83.28,False
+2018,6,Team donner,111.0,Tim Butler,120.9,False
+2018,6,Team Carey,106.78,"LeÂÂVeon, Pick up the pen",106.1,False
+2018,7,Half Chubbs,168.4,Team Fisher,118.68,False
+2018,7,Large 66,102.48,Bball And BBQ?,82.68,False
+2018,7,Tim Butler,100.86,Thielan up Kelce,103.04,False
+2018,7,"LeÂÂVeon, Pick up the pen",137.82,Team donner,98.82,False
+2018,7,Johnny Malandro Friends Friend,109.88,Team Carey,135.52,False
+2018,8,Team Fisher,98.76,Large 66,98.96,False
+2018,8,Bball And BBQ?,109.36,Tim Butler,114.66,False
+2018,8,Thielan up Kelce,136.8,"LeÂÂVeon, Pick up the pen",120.34,False
+2018,8,Team donner,105.14,Johnny Malandro Friends Friend,90.86,False
+2018,8,Team Carey,103.42,Half Chubbs,138.84,False
+2018,9,Tim Butler,129.0,Team Fisher,77.96,False
+2018,9,"LeÂÂVeon, Pick up the pen",91.46,Large 66,100.02,False
+2018,9,Bball And BBQ?,85.68,Team Carey,119.08,False
+2018,9,Johnny Malandro Friends Friend,80.96,Half Chubbs,156.42,False
+2018,9,Thielan up Kelce,110.22,Team donner,145.4,False
+2018,10,"LeÂÂVeon, Pick up the pen",107.86,Bball And BBQ?,58.02,False
+2018,10,Johnny Malandro Friends Friend,99.02,Tim Butler,127.4,False
+2018,10,Team Fisher,141.7,Thielan up Kelce,118.12,False
+2018,10,Half Chubbs,108.64,Large 66,148.24,False
+2018,10,Team Carey,94.96,Team donner,102.04,False
+2018,11,Johnny Malandro Friends Friend,111.92,Thielan up Kelce,126.24,False
+2018,11,"LeÂÂVeon, Pick up the pen",111.48,Half Chubbs,112.04,False
+2018,11,Team donner,92.0,Bball And BBQ?,82.48,False
+2018,11,Tim Butler,117.74,Large 66,92.62,False
+2018,11,Team Carey,146.92,Team Fisher,150.62,False
+2018,12,Half Chubbs,114.58,Team donner,105.16,False
+2018,12,Large 66,169.9,Johnny Malandro Friends Friend,83.58,False
+2018,12,Thielan up Kelce,110.62,Team Carey,142.76,False
+2018,12,Tim Butler,127.52,"LeÂÂVeon, Pick up the pen",119.58,False
+2018,12,Bball And BBQ?,124.84,Team Fisher,120.84,False
+2018,13,Large 66,99.06,Team Carey,120.8,False
+2018,13,Half Chubbs,83.96,Tim Butler,100.82,False
+2018,13,Team Fisher,82.04,Team donner,84.5,False
+2018,13,Johnny Malandro Friends Friend,97.88,"LeÂÂVeon, Pick up the pen",106.92,False
+2018,13,Bball And BBQ?,97.9,Thielan up Kelce,156.16,False
+2018,14,Thielan up Kelce,92.6,"LeÂÂVeon, Pick up the pen",84.78,True
+2018,14,Tim Butler,136.16,Team donner,82.48,True
+2018,14,Large 66,156.98,Johnny Malandro Friends Friend,61.0,True
+2018,14,Bball And BBQ?,73.7,Team Fisher,57.74,True
+2018,15,Half Chubbs,55.88,Thielan up Kelce,137.42,True
+2018,15,Team Carey,102.82,Tim Butler,79.58,True
+2018,15,"LeÂÂVeon, Pick up the pen",101.0,Team donner,104.98,True
+2018,15,Large 66,92.96,Bball And BBQ?,97.54,True
+2018,15,Johnny Malandro Friends Friend,113.56,Team Fisher,95.66,True
+2018,16,Team Carey,113.42,Thielan up Kelce,116.44,True
+2018,16,Half Chubbs,95.04,Tim Butler,120.0,True
+2018,16,"LeÂÂVeon, Pick up the pen",116.2,Team donner,118.04,True
+2018,16,Johnny Malandro Friends Friend,88.44,Bball And BBQ?,74.2,True
+2018,16,Large 66,133.16,Team Fisher,74.44,True
+2019,1,Dont call it  A come back,74.5,200 .0,101.82,False
+2019,1,Second Round Bye,128.06,New Season New me,115.42,False
+2019,1,B T C,105.06,I  Absolutely suck,125.02,False
+2019,1,Doug Dimmadome,77.16,Autodrafts 2.0,167.4,False
+2019,1,Full Chubb,122.1,Fourn(ette) ication,126.72,False
+2019,2,New Season New me,116.46,I  Absolutely suck,81.96,False
+2019,2,Autodrafts 2.0,86.04,Dont call it  A come back,106.12,False
+2019,2,Fourn(ette) ication,125.22,200 .0,114.42,False
+2019,2,Doug Dimmadome,106.12,Second Round Bye,98.6,False
+2019,2,Full Chubb,129.98,B T C,103.86,False
+2019,3,Autodrafts 2.0,135.94,Fourn(ette) ication,102.22,False
+2019,3,New Season New me,83.84,Doug Dimmadome,134.42,False
+2019,3,I  Absolutely suck,114.3,Full Chubb,126.18,False
+2019,3,Dont call it  A come back,82.18,Second Round Bye,144.86,False
+2019,3,200 .0,128.36,B T C,132.14,False
+2019,4,Doug Dimmadome,58.9,Full Chubb,145.38,False
+2019,4,Second Round Bye,135.68,Autodrafts 2.0,78.02,False
+2019,4,B T C,105.6,Fourn(ette) ication,124.14,False
+2019,4,Dont call it  A come back,72.5,New Season New me,76.3,False
+2019,4,200 .0,133.2,I  Absolutely suck,91.78,False
+2019,5,Second Round Bye,114.8,B T C,147.76,False
+2019,5,Doug Dimmadome,95.98,Dont call it  A come back,94.72,False
+2019,5,Full Chubb,142.44,200 .0,127.24,False
+2019,5,Autodrafts 2.0,150.26,New Season New me,125.94,False
+2019,5,Fourn(ette) ication,140.52,I  Absolutely suck,88.84,False
+2019,6,200 .0,94.02,New Season New me,101.9,False
+2019,6,I  Absolutely suck,116.22,Autodrafts 2.0,81.92,False
+2019,6,Fourn(ette) ication,154.1,Doug Dimmadome,94.92,False
+2019,6,Full Chubb,125.14,Second Round Bye,137.84,False
+2019,6,B T C,89.6,Dont call it  A come back,89.66,False
+2019,7,Autodrafts 2.0,97.46,200 .0,105.24,False
+2019,7,Doug Dimmadome,107.98,I  Absolutely suck,113.16,False
+2019,7,Second Round Bye,105.06,Fourn(ette) ication,109.26,False
+2019,7,Dont call it  A come back,109.16,Full Chubb,78.12,False
+2019,7,New Season New me,66.42,B T C,101.04,False
+2019,8,200 .0,100.02,Doug Dimmadome,107.26,False
+2019,8,I  Absolutely suck,91.0,Second Round Bye,161.32,False
+2019,8,Fourn(ette) ication,109.1,Dont call it  A come back,101.96,False
+2019,8,Full Chubb,129.48,New Season New me,104.66,False
+2019,8,B T C,125.48,Autodrafts 2.0,128.4,False
+2019,9,Second Round Bye,115.96,200 .0,59.3,False
+2019,9,Dont call it  A come back,134.1,Doug Dimmadome,101.6,False
+2019,9,I  Absolutely suck,71.84,B T C,98.3,False
+2019,9,New Season New me,132.34,Autodrafts 2.0,139.18,False
+2019,9,Fourn(ette) ication,96.74,Full Chubb,142.12,False
+2019,10,Dont call it  A come back,90.12,I  Absolutely suck,90.42,False
+2019,10,New Season New me,95.02,Second Round Bye,107.48,False
+2019,10,200 .0,87.08,Fourn(ette) ication,115.76,False
+2019,10,Autodrafts 2.0,128.14,Doug Dimmadome,106.44,False
+2019,10,B T C,145.52,Full Chubb,129.72,False
+2019,11,New Season New me,87.36,Fourn(ette) ication,124.2,False
+2019,11,Dont call it  A come back,108.94,Autodrafts 2.0,81.08,False
+2019,11,Full Chubb,77.78,I  Absolutely suck,105.42,False
+2019,11,Second Round Bye,82.64,Doug Dimmadome,150.94,False
+2019,11,B T C,119.82,200 .0,94.22,False
+2019,12,Autodrafts 2.0,122.98,Full Chubb,100.36,False
+2019,12,Doug Dimmadome,99.9,New Season New me,94.22,False
+2019,12,Fourn(ette) ication,175.0,B T C,119.02,False
+2019,12,Second Round Bye,73.74,Dont call it  A come back,81.5,False
+2019,12,I  Absolutely suck,89.16,200 .0,129.04,False
+2019,13,Doug Dimmadome,108.84,B T C,91.52,False
+2019,13,Autodrafts 2.0,101.7,Second Round Bye,99.84,False
+2019,13,200 .0,119.56,Full Chubb,93.4,False
+2019,13,New Season New me,73.06,Dont call it  A come back,107.14,False
+2019,13,I  Absolutely suck,96.52,Fourn(ette) ication,100.1,False
+2019,14,Doug Dimmadome,99.54,Dont call it  A come back,98.46,True
+2019,14,Second Round Bye,102.88,Full Chubb,93.6,True
+2019,14,B T C,150.24,200 .0,105.8,True
+2019,14,I  Absolutely suck,60.5,New Season New me,115.98,True
+2019,15,Fourn(ette) ication,120.56,Doug Dimmadome,143.22,True
+2019,15,Autodrafts 2.0,151.3,Second Round Bye,99.2,True
+2019,15,Dont call it  A come back,101.76,Full Chubb,120.28,True
+2019,15,B T C,170.92,New Season New me,126.82,True
+2019,15,200 .0,104.68,I  Absolutely suck,101.22,True
+2019,16,Autodrafts 2.0,144.24,Doug Dimmadome,92.66,True
+2019,16,Fourn(ette) ication,110.02,Second Round Bye,117.36,True
+2019,16,Dont call it  A come back,126.48,Full Chubb,76.02,True
+2019,16,B T C,140.1,200 .0,82.16,True
+2019,16,I  Absolutely suck,90.04,New Season New me,89.86,True
+2020,1,First Round Manager ,106.02,Fantasy  Football Team ,114.96,False
+2020,1,Herbert Fully Loaded,98.4,Weak  Knees,112.6,False
+2020,1,B T C,115.56,Trust the Process,110.44,False
+2020,1,Doug Dimmadome,180.0,The Sicilian  Defense ,106.58,False
+2020,1,Full Chubb,119.3,Stop Scoring  On Me,73.98,False
+2020,2,Weak  Knees,137.12,Trust the Process,150.98,False
+2020,2,The Sicilian  Defense ,157.78,First Round Manager ,108.1,False
+2020,2,Stop Scoring  On Me,133.26,Fantasy  Football Team ,115.0,False
+2020,2,Doug Dimmadome,85.36,Herbert Fully Loaded,121.28,False
+2020,2,Full Chubb,91.34,B T C,114.84,False
+2020,3,The Sicilian  Defense ,170.9,Stop Scoring  On Me,123.7,False
+2020,3,Weak  Knees,111.82,Doug Dimmadome,84.68,False
+2020,3,Trust the Process,135.0,Full Chubb,91.0,False
+2020,3,First Round Manager ,134.5,Herbert Fully Loaded,110.0,False
+2020,3,Fantasy  Football Team ,106.72,B T C,105.58,False
+2020,4,Doug Dimmadome,105.72,Full Chubb,103.52,False
+2020,4,Herbert Fully Loaded,160.84,The Sicilian  Defense ,122.3,False
+2020,4,B T C,104.3,Stop Scoring  On Me,127.5,False
+2020,4,First Round Manager ,81.6,Weak  Knees,95.5,False
+2020,4,Fantasy  Football Team ,132.08,Trust the Process,85.54,False
+2020,5,Herbert Fully Loaded,95.44,B T C,138.46,False
+2020,5,Doug Dimmadome,116.1,First Round Manager ,116.76,False
+2020,5,Full Chubb,116.0,Fantasy  Football Team ,112.12,False
+2020,5,The Sicilian  Defense ,106.78,Weak  Knees,104.44,False
+2020,5,Stop Scoring  On Me,113.52,Trust the Process,117.4,False
+2020,6,Fantasy  Football Team ,59.0,Weak  Knees,105.74,False
+2020,6,Trust the Process,104.1,The Sicilian  Defense ,88.84,False
+2020,6,Stop Scoring  On Me,133.52,Doug Dimmadome,105.64,False
+2020,6,Full Chubb,114.32,Herbert Fully Loaded,102.72,False
+2020,6,B T C,105.78,First Round Manager ,126.6,False
+2020,7,The Sicilian  Defense ,129.32,Fantasy  Football Team ,85.32,False
+2020,7,Doug Dimmadome,102.62,Trust the Process,120.5,False
+2020,7,Herbert Fully Loaded,155.48,Stop Scoring  On Me,117.8,False
+2020,7,First Round Manager ,119.2,Full Chubb,121.5,False
+2020,7,Weak  Knees,104.42,B T C,85.48,False
+2020,8,Fantasy  Football Team ,108.14,Doug Dimmadome,100.72,False
+2020,8,Trust the Process,99.94,Herbert Fully Loaded,87.22,False
+2020,8,Stop Scoring  On Me,86.74,First Round Manager ,96.94,False
+2020,8,Full Chubb,116.0,Weak  Knees,125.42,False
+2020,8,B T C,56.46,The Sicilian  Defense ,146.34,False
+2020,9,Herbert Fully Loaded,102.84,Fantasy  Football Team ,132.2,False
+2020,9,First Round Manager ,86.04,Doug Dimmadome,90.5,False
+2020,9,Trust the Process,76.28,B T C,108.8,False
+2020,9,Weak  Knees,139.26,The Sicilian  Defense ,102.0,False
+2020,9,Stop Scoring  On Me,82.44,Full Chubb,122.52,False
+2020,10,First Round Manager ,87.42,Trust the Process,81.42,False
+2020,10,Weak  Knees,83.92,Herbert Fully Loaded,82.38,False
+2020,10,Fantasy  Football Team ,76.1,Stop Scoring  On Me,90.68,False
+2020,10,The Sicilian  Defense ,111.02,Doug Dimmadome,154.66,False
+2020,10,B T C,91.76,Full Chubb,120.9,False
+2020,11,Weak  Knees,116.68,Stop Scoring  On Me,152.04,False
+2020,11,First Round Manager ,114.38,The Sicilian  Defense ,85.28,False
+2020,11,Full Chubb,113.66,Trust the Process,110.52,False
+2020,11,Herbert Fully Loaded,133.74,Doug Dimmadome,110.34,False
+2020,11,B T C,108.86,Fantasy  Football Team ,92.44,False
+2020,12,The Sicilian  Defense ,155.2,Full Chubb,119.2,False
+2020,12,Doug Dimmadome,85.1,Weak  Knees,60.6,False
+2020,12,Stop Scoring  On Me,113.5,B T C,108.88,False
+2020,12,Herbert Fully Loaded,118.44,First Round Manager ,134.22,False
+2020,12,Trust the Process,100.18,Fantasy  Football Team ,152.6,False
+2020,13,Doug Dimmadome,139.68,B T C,121.0,False
+2020,13,The Sicilian  Defense ,122.62,Herbert Fully Loaded,76.96,False
+2020,13,Fantasy  Football Team ,113.88,Full Chubb,92.12,False
+2020,13,Weak  Knees,120.62,First Round Manager ,74.44,False
+2020,13,Trust the Process,118.02,Stop Scoring  On Me,118.2,False
+2020,14,Stop Scoring  On Me,168.1,Fantasy  Football Team ,104.24,True
+2020,14,The Sicilian  Defense ,141.64,First Round Manager ,100.16,True
+2020,14,Doug Dimmadome,89.82,Trust the Process,152.82,True
+2020,14,B T C,77.8,Herbert Fully Loaded,107.52,True
+2020,15,Weak  Knees,152.92,Stop Scoring  On Me,90.42,True
+2020,15,Full Chubb,129.34,The Sicilian  Defense ,112.24,True
+2020,15,Fantasy  Football Team ,109.7,First Round Manager ,145.92,True
+2020,15,Trust the Process,109.56,Herbert Fully Loaded,113.86,True
+2020,15,Doug Dimmadome,118.02,B T C,109.56,True
+2020,16,Weak  Knees,154.18,Full Chubb,97.48,True
+2020,16,The Sicilian  Defense ,168.44,Stop Scoring  On Me,107.34,True
+2020,16,Fantasy  Football Team ,126.42,First Round Manager ,92.26,True
+2020,16,Doug Dimmadome,112.32,Herbert Fully Loaded,83.12,True
+2020,16,Trust the Process,110.72,B T C,91.2,True
+2021,1,Is Saquon  Toast? Yes,102.46,Team Bag,95.22,False
+2021,1,Leaping  Gnome's,117.54,Run C.M.C.,109.0,False
+2021,1,Darth  Goose,90.24,Fantasy  Football Team ,133.86,False
+2021,1,Chuba Chubb,116.48,Im George K,102.28,False
+2021,1,Slop 'em  up,114.66,Party Party Party Party,130.06,False
+2021,2,Run C.M.C.,138.86,Fantasy  Football Team ,141.9,False
+2021,2,Im George K,126.82,Is Saquon  Toast? Yes,119.64,False
+2021,2,Party Party Party Party,111.12,Team Bag,121.5,False
+2021,2,Chuba Chubb,122.28,Leaping  Gnome's,82.16,False
+2021,2,Slop 'em  up,102.7,Darth  Goose,98.12,False
+2021,3,Im George K,113.5,Party Party Party Party,132.42,False
+2021,3,Run C.M.C.,85.38,Chuba Chubb,118.38,False
+2021,3,Fantasy  Football Team ,96.94,Slop 'em  up,121.64,False
+2021,3,Is Saquon  Toast? Yes,99.28,Leaping  Gnome's,83.72,False
+2021,3,Team Bag,146.84,Darth  Goose,116.02,False
+2021,4,Chuba Chubb,90.24,Slop 'em  up,94.58,False
+2021,4,Leaping  Gnome's,87.52,Im George K,98.82,False
+2021,4,Darth  Goose,90.1,Party Party Party Party,125.66,False
+2021,4,Is Saquon  Toast? Yes,93.96,Run C.M.C.,129.84,False
+2021,4,Team Bag,136.92,Fantasy  Football Team ,117.52,False
+2021,5,Leaping  Gnome's,91.7,Darth  Goose,127.9,False
+2021,5,Chuba Chubb,121.8,Is Saquon  Toast? Yes,104.74,False
+2021,5,Slop 'em  up,151.62,Team Bag,96.76,False
+2021,5,Im George K,131.08,Run C.M.C.,162.28,False
+2021,5,Party Party Party Party,128.68,Fantasy  Football Team ,124.76,False
+2021,6,Team Bag,127.9,Run C.M.C.,88.78,False
+2021,6,Fantasy  Football Team ,122.36,Im George K,89.88,False
+2021,6,Party Party Party Party,122.28,Chuba Chubb,124.54,False
+2021,6,Slop 'em  up,97.2,Leaping  Gnome's,120.22,False
+2021,6,Darth  Goose,113.14,Is Saquon  Toast? Yes,100.88,False
+2021,7,Im George K,68.94,Team Bag,127.56,False
+2021,7,Chuba Chubb,94.84,Fantasy  Football Team ,118.64,False
+2021,7,Leaping  Gnome's,100.4,Party Party Party Party,101.38,False
+2021,7,Is Saquon  Toast? Yes,109.64,Slop 'em  up,161.74,False
+2021,7,Run C.M.C.,84.88,Darth  Goose,168.86,False
+2021,8,Team Bag,120.26,Chuba Chubb,107.36,False
+2021,8,Fantasy  Football Team ,68.46,Leaping  Gnome's,109.46,False
+2021,8,Party Party Party Party,121.14,Is Saquon  Toast? Yes,100.8,False
+2021,8,Slop 'em  up,82.52,Run C.M.C.,94.16,False
+2021,8,Darth  Goose,110.0,Im George K,92.7,False
+2021,9,Leaping  Gnome's,114.96,Team Bag,99.88,False
+2021,9,Is Saquon  Toast? Yes,103.94,Chuba Chubb,108.08,False
+2021,9,Fantasy  Football Team ,59.78,Darth  Goose,91.76,False
+2021,9,Run C.M.C.,111.94,Im George K,95.84,False
+2021,9,Party Party Party Party,97.7,Slop 'em  up,86.48,False
+2021,10,Is Saquon  Toast? Yes,94.8,Fantasy  Football Team ,122.74,False
+2021,10,Run C.M.C.,118.32,Leaping  Gnome's,104.54,False
+2021,10,Team Bag,120.32,Party Party Party Party,76.94,False
+2021,10,Im George K,140.54,Chuba Chubb,89.04,False
+2021,10,Darth  Goose,71.12,Slop 'em  up,92.32,False
+2021,11,Run C.M.C.,82.9,Party Party Party Party,145.08,False
+2021,11,Is Saquon  Toast? Yes,83.98,Im George K,109.3,False
+2021,11,Slop 'em  up,104.28,Fantasy  Football Team ,79.84,False
+2021,11,Leaping  Gnome's,119.56,Chuba Chubb,97.12,False
+2021,11,Darth  Goose,126.08,Team Bag,116.5,False
+2021,12,Im George K,62.1,Slop 'em  up,55.06,False
+2021,12,Chuba Chubb,66.3,Run C.M.C.,117.9,False
+2021,12,Party Party Party Party,114.88,Darth  Goose,100.98,False
+2021,12,Leaping  Gnome's,131.86,Is Saquon  Toast? Yes,98.74,False
+2021,12,Fantasy  Football Team ,102.7,Team Bag,116.08,False
+2021,13,Chuba Chubb,109.7,Darth  Goose,111.1,False
+2021,13,Im George K,90.86,Leaping  Gnome's,135.9,False
+2021,13,Team Bag,104.3,Slop 'em  up,109.06,False
+2021,13,Run C.M.C.,130.02,Is Saquon  Toast? Yes,99.62,False
+2021,13,Fantasy  Football Team ,78.62,Party Party Party Party,151.86,False
+2021,14,Team Bag,128.24,Is Saquon  Toast? Yes,130.72,False
+2021,14,Fantasy  Football Team ,106.04,Run C.M.C.,89.98,False
+2021,14,Party Party Party Party,94.42,Im George K,110.02,False
+2021,14,Slop 'em  up,94.42,Chuba Chubb,112.02,False
+2021,14,Darth  Goose,114.08,Leaping  Gnome's,188.82,False
+2021,15,Slop 'em  up,94.24,Run C.M.C.,132.7,True
+2021,15,Leaping  Gnome's,92.5,Darth  Goose,67.16,True
+2021,15,Chuba Chubb,81.58,Fantasy  Football Team ,55.18,True
+2021,15,Im George K,96.3,Is Saquon  Toast? Yes,70.66,True
+2021,16,Party Party Party Party,86.4,Run C.M.C.,129.74,True
+2021,16,Team Bag,130.18,Leaping  Gnome's,123.06,True
+2021,16,Slop 'em  up,81.66,Darth  Goose,98.08,True
+2021,16,Chuba Chubb,127.4,Im George K,107.12,True
+2021,16,Fantasy  Football Team ,132.4,Is Saquon  Toast? Yes,91.38,True
+2021,17,Team Bag,90.02,Run C.M.C.,150.84,True
+2021,17,Party Party Party Party,136.02,Leaping  Gnome's,107.9,True
+2021,17,Slop 'em  up,76.36,Darth  Goose,113.76,True
+2021,17,Chuba Chubb,91.44,Fantasy  Football Team ,122.44,True
+2021,17,Im George K,96.96,Is Saquon  Toast? Yes,92.9,True
+2022,1,Go 1-0 Today,78.02,My Body Deshauns Choice,109.9,False
+2022,1,Joeman Sachs,102.56,Derrick Henny in my Kupp,104.12,False
+2022,1,The Big  Tua,50.7,The Yips!,127.0,False
+2022,1,Chase Jefferson,126.92,Pierce  Walker,121.48,False
+2022,1,Slop 'em  up,111.22,Ice Cold DC's,138.28,False
+2022,2,Derrick Henny in my Kupp,108.18,The Yips!,89.3,False
+2022,2,Pierce  Walker,82.0,Go 1-0 Today,139.42,False
+2022,2,Ice Cold DC's,134.28,My Body Deshauns Choice,84.46,False
+2022,2,Chase Jefferson,86.26,Joeman Sachs,159.26,False
+2022,2,Slop 'em  up,159.92,The Big  Tua,112.86,False
+2022,3,Pierce  Walker,86.04,Ice Cold DC's,118.4,False
+2022,3,Derrick Henny in my Kupp,95.66,Chase Jefferson,100.7,False
+2022,3,The Yips!,103.38,Slop 'em  up,113.1,False
+2022,3,Go 1-0 Today,109.92,Joeman Sachs,86.28,False
+2022,3,My Body Deshauns Choice,94.0,The Big  Tua,83.74,False
+2022,4,Chase Jefferson,121.48,Slop 'em  up,97.86,False
+2022,4,Joeman Sachs,107.3,Pierce  Walker,128.0,False
+2022,4,The Big  Tua,71.2,Ice Cold DC's,99.42,False
+2022,4,Go 1-0 Today,102.26,Derrick Henny in my Kupp,144.48,False
+2022,4,My Body Deshauns Choice,133.08,The Yips!,107.56,False
+2022,5,Joeman Sachs,105.72,The Big  Tua,125.98,False
+2022,5,Chase Jefferson,129.8,Go 1-0 Today,115.26,False
+2022,5,Slop 'em  up,131.96,My Body Deshauns Choice,67.46,False
+2022,5,Pierce  Walker,95.04,Derrick Henny in my Kupp,107.9,False
+2022,5,Ice Cold DC's,111.76,The Yips!,112.08,False
+2022,6,My Body Deshauns Choice,74.4,Derrick Henny in my Kupp,77.58,False
+2022,6,The Yips!,100.82,Pierce  Walker,106.72,False
+2022,6,Ice Cold DC's,102.46,Chase Jefferson,127.3,False
+2022,6,Slop 'em  up,92.7,Joeman Sachs,76.02,False
+2022,6,The Big  Tua,81.44,Go 1-0 Today,119.5,False
+2022,7,Pierce  Walker,111.0,My Body Deshauns Choice,108.24,False
+2022,7,Chase Jefferson,134.84,The Yips!,84.52,False
+2022,7,Joeman Sachs,88.72,Ice Cold DC's,81.02,False
+2022,7,Go 1-0 Today,80.7,Slop 'em  up,135.5,False
+2022,7,Derrick Henny in my Kupp,105.26,The Big  Tua,126.34,False
+2022,8,My Body Deshauns Choice,86.94,Chase Jefferson,93.18,False
+2022,8,The Yips!,115.14,Joeman Sachs,135.78,False
+2022,8,Ice Cold DC's,95.12,Go 1-0 Today,148.38,False
+2022,8,Slop 'em  up,150.3,Derrick Henny in my Kupp,152.14,False
+2022,8,The Big  Tua,131.88,Pierce  Walker,88.5,False
+2022,9,Joeman Sachs,75.9,My Body Deshauns Choice,74.46,False
+2022,9,Go 1-0 Today,88.92,Chase Jefferson,107.14,False
+2022,9,The Yips!,99.34,The Big  Tua,113.08,False
+2022,9,Derrick Henny in my Kupp,116.8,Pierce  Walker,136.7,False
+2022,9,Ice Cold DC's,104.2,Slop 'em  up,151.02,False
+2022,10,Go 1-0 Today,120.96,The Yips!,121.28,False
+2022,10,Derrick Henny in my Kupp,69.3,Joeman Sachs,110.74,False
+2022,10,My Body Deshauns Choice,95.94,Ice Cold DC's,98.3,False
+2022,10,Pierce  Walker,84.74,Chase Jefferson,108.3,False
+2022,10,The Big  Tua,111.2,Slop 'em  up,110.5,False
+2022,11,Derrick Henny in my Kupp,124.2,Ice Cold DC's,161.88,False
+2022,11,Go 1-0 Today,115.06,Pierce  Walker,89.56,False
+2022,11,Slop 'em  up,141.2,The Yips!,101.32,False
+2022,11,Joeman Sachs,116.4,Chase Jefferson,96.8,False
+2022,11,The Big  Tua,86.94,My Body Deshauns Choice,87.24,False
+2022,12,Pierce  Walker,109.8,Slop 'em  up,142.02,False
+2022,12,Chase Jefferson,116.24,Derrick Henny in my Kupp,99.14,False
+2022,12,Ice Cold DC's,114.62,The Big  Tua,112.06,False
+2022,12,Joeman Sachs,138.26,Go 1-0 Today,92.36,False
+2022,12,The Yips!,89.1,My Body Deshauns Choice,101.94,False
+2022,13,Chase Jefferson,139.14,The Big  Tua,114.7,False
+2022,13,Pierce  Walker,88.02,Joeman Sachs,109.5,False
+2022,13,My Body Deshauns Choice,77.84,Slop 'em  up,122.3,False
+2022,13,Derrick Henny in my Kupp,85.24,Go 1-0 Today,96.94,False
+2022,13,The Yips!,140.16,Ice Cold DC's,134.42,False
+2022,14,My Body Deshauns Choice,91.0,Go 1-0 Today,82.42,False
+2022,14,The Yips!,106.7,Derrick Henny in my Kupp,103.36,False
+2022,14,Ice Cold DC's,82.88,Pierce  Walker,80.08,False
+2022,14,Slop 'em  up,98.48,Chase Jefferson,142.76,False
+2022,14,The Big  Tua,111.7,Joeman Sachs,105.28,False
+2022,15,Joeman Sachs,86.52,Derrick Henny in my Kupp,123.04,True
+2022,15,Ice Cold DC's,110.56,Go 1-0 Today,167.82,True
+2022,15,The Big  Tua,111.96,My Body Deshauns Choice,96.9,True
+2022,15,The Yips!,108.58,Pierce  Walker,111.04,True
+2022,16,Chase Jefferson,108.9,Derrick Henny in my Kupp,106.68,True
+2022,16,Slop 'em  up,105.3,Go 1-0 Today,119.06,True
+2022,16,Ice Cold DC's,91.78,Joeman Sachs,76.3,True
+2022,16,The Big  Tua,54.8,Pierce  Walker,105.86,True
+2022,16,My Body Deshauns Choice,140.66,The Yips!,82.26,True
+2022,17,Chase Jefferson,52.8,Go 1-0 Today,101.78,True
+2022,17,Slop 'em  up,161.2,Derrick Henny in my Kupp,131.88,True
+2022,17,Ice Cold DC's,89.7,Joeman Sachs,46.88,True
+2022,17,My Body Deshauns Choice,82.8,Pierce  Walker,66.42,True
+2022,17,The Big  Tua,102.7,The Yips!,111.8,True
+2023,1,Dead Inside ,109.74,Love White Rice ,76.48,False
+2023,1,Joeman Sachs,100.64,Captain Kirk,73.86,False
+2023,1,Keenan Allen and the Cats,88.46,Mr. Pfizer,75.8,False
+2023,1,Tua Turndaballova,137.44,Bennie and the Jets ,71.24,False
+2023,1,Wookie Wunningbacks,119.72,Need to AddiZyn,84.44,False
+2023,2,Captain Kirk,103.18,Mr. Pfizer,120.22,False
+2023,2,Bennie and the Jets ,135.66,Dead Inside ,88.94,False
+2023,2,Need to AddiZyn,88.34,Love White Rice ,118.28,False
+2023,2,Tua Turndaballova,86.96,Joeman Sachs,103.0,False
+2023,2,Wookie Wunningbacks,121.3,Keenan Allen and the Cats,107.0,False
+2023,3,Bennie and the Jets ,116.72,Need to AddiZyn,73.06,False
+2023,3,Captain Kirk,130.38,Tua Turndaballova,168.86,False
+2023,3,Mr. Pfizer,145.58,Wookie Wunningbacks,83.26,False
+2023,3,Dead Inside ,87.46,Joeman Sachs,118.78,False
+2023,3,Love White Rice ,130.08,Keenan Allen and the Cats,108.86,False
+2023,4,Tua Turndaballova,106.68,Wookie Wunningbacks,106.24,False
+2023,4,Joeman Sachs,103.02,Bennie and the Jets ,114.9,False
+2023,4,Keenan Allen and the Cats,103.06,Need to AddiZyn,131.7,False
+2023,4,Dead Inside ,109.32,Captain Kirk,115.84,False
+2023,4,Love White Rice ,89.56,Mr. Pfizer,104.06,False
+2023,5,Joeman Sachs,87.54,Keenan Allen and the Cats,71.36,False
+2023,5,Tua Turndaballova,132.12,Dead Inside ,100.12,False
+2023,5,Wookie Wunningbacks,70.96,Love White Rice ,128.36,False
+2023,5,Bennie and the Jets ,94.26,Captain Kirk,107.24,False
+2023,5,Need to AddiZyn,139.08,Mr. Pfizer,133.52,False
+2023,6,Love White Rice ,115.14,Captain Kirk,108.92,False
+2023,6,Mr. Pfizer,96.9,Bennie and the Jets ,88.26,False
+2023,6,Need to AddiZyn,105.02,Tua Turndaballova,111.58,False
+2023,6,Wookie Wunningbacks,58.66,Joeman Sachs,99.84,False
+2023,6,Keenan Allen and the Cats,105.98,Dead Inside ,118.4,False
+2023,7,Bennie and the Jets ,103.5,Love White Rice ,113.96,False
+2023,7,Tua Turndaballova,94.64,Mr. Pfizer,149.16,False
+2023,7,Joeman Sachs,120.86,Need to AddiZyn,82.66,False
+2023,7,Dead Inside ,82.18,Wookie Wunningbacks,110.64,False
+2023,7,Captain Kirk,112.48,Keenan Allen and the Cats,50.76,False
+2023,8,Love White Rice ,115.16,Tua Turndaballova,112.16,False
+2023,8,Mr. Pfizer,106.36,Joeman Sachs,73.4,False
+2023,8,Need to AddiZyn,140.78,Dead Inside ,135.66,False
+2023,8,Wookie Wunningbacks,108.8,Captain Kirk,97.98,False
+2023,8,Keenan Allen and the Cats,107.82,Bennie and the Jets ,140.76,False
+2023,9,Joeman Sachs,75.9,Love White Rice ,124.72,False
+2023,9,Dead Inside ,86.86,Tua Turndaballova,80.52,False
+2023,9,Mr. Pfizer,95.58,Keenan Allen and the Cats,111.14,False
+2023,9,Captain Kirk,90.58,Bennie and the Jets ,118.52,False
+2023,9,Need to AddiZyn,118.4,Wookie Wunningbacks,107.92,False
+2023,10,Dead Inside ,112.96,Mr. Pfizer,116.34,False
+2023,10,Captain Kirk,85.62,Joeman Sachs,101.12,False
+2023,10,Love White Rice ,124.68,Need to AddiZyn,113.48,False
+2023,10,Bennie and the Jets ,123.78,Tua Turndaballova,105.86,False
+2023,10,Keenan Allen and the Cats,113.62,Wookie Wunningbacks,110.84,False
+2023,11,Captain Kirk,113.76,Need to AddiZyn,94.16,False
+2023,11,Dead Inside ,111.36,Bennie and the Jets ,143.7,False
+2023,11,Wookie Wunningbacks,120.94,Mr. Pfizer,83.3,False
+2023,11,Joeman Sachs,110.68,Tua Turndaballova,98.6,False
+2023,11,Keenan Allen and the Cats,103.0,Love White Rice ,98.34,False
+2023,12,Bennie and the Jets ,136.06,Wookie Wunningbacks,123.06,False
+2023,12,Tua Turndaballova,128.04,Captain Kirk,83.78,False
+2023,12,Need to AddiZyn,118.08,Keenan Allen and the Cats,104.78,False
+2023,12,Joeman Sachs,102.52,Dead Inside ,132.94,False
+2023,12,Mr. Pfizer,111.8,Love White Rice ,104.2,False
+2023,13,Tua Turndaballova,110.0,Keenan Allen and the Cats,98.48,False
+2023,13,Bennie and the Jets ,101.84,Joeman Sachs,120.8,False
+2023,13,Love White Rice ,142.52,Wookie Wunningbacks,125.26,False
+2023,13,Captain Kirk,90.34,Dead Inside ,119.06,False
+2023,13,Mr. Pfizer,97.02,Need to AddiZyn,126.4,False
+2023,14,Love White Rice ,102.72,Dead Inside ,128.44,False
+2023,14,Mr. Pfizer,96.58,Captain Kirk,139.34,False
+2023,14,Need to AddiZyn,110.42,Bennie and the Jets ,105.12,False
+2023,14,Wookie Wunningbacks,78.34,Tua Turndaballova,72.3,False
+2023,14,Keenan Allen and the Cats,89.54,Joeman Sachs,103.04,False
+2023,15,Mr. Pfizer,79.72,Tua Turndaballova,108.12,True
+2023,15,Bennie and the Jets ,77.86,Need to AddiZyn,87.08,True
+2023,15,Dead Inside ,139.66,Wookie Wunningbacks,73.7,True
+2023,15,Captain Kirk,97.34,Keenan Allen and the Cats,57.66,True
+2023,16,Joeman Sachs,113.3,Tua Turndaballova,91.72,True
+2023,16,Love White Rice ,95.74,Need to AddiZyn,88.0,True
+2023,16,Bennie and the Jets ,129.68,Mr. Pfizer,75.94,True
+2023,16,Dead Inside ,119.22,Captain Kirk,112.08,True
+2023,16,Wookie Wunningbacks,170.38,Keenan Allen and the Cats,106.8,True
+2023,17,Joeman Sachs,124.2,Love White Rice ,95.54,True
+2023,17,Tua Turndaballova,115.18,Need to AddiZyn,118.82,True
+2023,17,Bennie and the Jets ,147.66,Mr. Pfizer,105.48,True
+2023,17,Dead Inside ,145.6,Wookie Wunningbacks,40.22,True
+2023,17,Captain Kirk,98.94,Keenan Allen and the Cats,59.66,True
+2024,1,Team,108.28,Rijan Bobinson,140.98,False
+2024,1,Personal Caddy For Hire,118.88,Brockenheimer,71.36,False
+2024,1,Pay Chase and Chase,75.64,Joeman Sachs,61.72,False
+2024,1,Titans Kickoff TD,95.86,Captain Kirk,129.42,False
+2024,1,Women in the Kitchen ,136.1,The Joe Joe Siwas,77.46,False
+2024,2,Rijan Bobinson,122.14,Brockenheimer,136.62,False
+2024,2,Joeman Sachs,102.42,Team,112.36,False
+2024,2,Captain Kirk,114.08,Personal Caddy For Hire,90.26,False
+2024,2,The Joe Joe Siwas,94.42,Pay Chase and Chase,123.54,False
+2024,2,Women in the Kitchen ,125.04,Titans Kickoff TD,91.0,False
+2024,3,Joeman Sachs,70.64,Rijan Bobinson,149.38,False
+2024,3,Brockenheimer,112.38,Captain Kirk,93.98,False
+2024,3,Team,38.28,The Joe Joe Siwas,95.96,False
+2024,3,Personal Caddy For Hire,143.22,Women in the Kitchen ,157.36,False
+2024,3,Pay Chase and Chase,117.68,Titans Kickoff TD,104.1,False
+2024,4,Rijan Bobinson,98.58,Captain Kirk,134.34,False
+2024,4,The Joe Joe Siwas,86.58,Joeman Sachs,117.72,False
+2024,4,Women in the Kitchen ,104.82,Brockenheimer,66.02,False
+2024,4,Titans Kickoff TD,105.6,Team,96.08,False
+2024,4,Pay Chase and Chase,123.7,Personal Caddy For Hire,99.4,False
+2024,5,The Joe Joe Siwas,132.98,Rijan Bobinson,96.3,False
+2024,5,Captain Kirk,130.12,Women in the Kitchen ,115.02,False
+2024,5,Joeman Sachs,98.2,Titans Kickoff TD,110.94,False
+2024,5,Brockenheimer,106.66,Pay Chase and Chase,118.26,False
+2024,5,Team,106.94,Personal Caddy For Hire,100.34,False
+2024,6,Rijan Bobinson,107.36,Women in the Kitchen ,99.16,False
+2024,6,Titans Kickoff TD,112.38,The Joe Joe Siwas,158.22,False
+2024,6,Pay Chase and Chase,85.6,Captain Kirk,110.22,False
+2024,6,Personal Caddy For Hire,120.4,Joeman Sachs,131.66,False
+2024,6,Team,88.6,Brockenheimer,107.82,False
+2024,7,Titans Kickoff TD,83.44,Rijan Bobinson,117.6,False
+2024,7,Women in the Kitchen ,97.34,Pay Chase and Chase,84.28,False
+2024,7,The Joe Joe Siwas,105.54,Personal Caddy For Hire,131.82,False
+2024,7,Captain Kirk,109.34,Team,114.66,False
+2024,7,Joeman Sachs,89.76,Brockenheimer,97.68,False
+2024,8,Rijan Bobinson,111.08,Pay Chase and Chase,101.44,False
+2024,8,Personal Caddy For Hire,116.42,Titans Kickoff TD,103.9,False
+2024,8,Team,122.16,Women in the Kitchen ,131.84,False
+2024,8,Brockenheimer,123.9,The Joe Joe Siwas,126.76,False
+2024,8,Joeman Sachs,99.84,Captain Kirk,114.36,False
+2024,9,Personal Caddy For Hire,105.2,Rijan Bobinson,115.26,False
+2024,9,Pay Chase and Chase,118.98,Team,86.32,False
+2024,9,Titans Kickoff TD,74.2,Brockenheimer,119.02,False
+2024,9,Women in the Kitchen ,137.44,Joeman Sachs,80.6,False
+2024,9,The Joe Joe Siwas,127.04,Captain Kirk,125.9,False
+2024,10,Rijan Bobinson,106.84,Team,89.26,False
+2024,10,Brockenheimer,90.82,Personal Caddy For Hire,80.7,False
+2024,10,Joeman Sachs,87.38,Pay Chase and Chase,141.84,False
+2024,10,Captain Kirk,95.5,Titans Kickoff TD,114.04,False
+2024,10,The Joe Joe Siwas,106.42,Women in the Kitchen ,95.58,False
+2024,11,Brockenheimer,143.56,Rijan Bobinson,82.2,False
+2024,11,Team,114.48,Joeman Sachs,71.04,False
+2024,11,Personal Caddy For Hire,112.28,Captain Kirk,93.48,False
+2024,11,Pay Chase and Chase,92.94,The Joe Joe Siwas,135.44,False
+2024,11,Titans Kickoff TD,128.48,Women in the Kitchen ,120.44,False
+2024,12,Rijan Bobinson,114.7,Joeman Sachs,110.26,False
+2024,12,Captain Kirk,86.98,Brockenheimer,92.58,False
+2024,12,The Joe Joe Siwas,87.26,Team,86.02,False
+2024,12,Women in the Kitchen ,154.1,Personal Caddy For Hire,120.68,False
+2024,12,Titans Kickoff TD,94.06,Pay Chase and Chase,135.26,False
+2024,13,Captain Kirk,130.78,Rijan Bobinson,102.6,False
+2024,13,Joeman Sachs,95.42,The Joe Joe Siwas,105.16,False
+2024,13,Brockenheimer,128.56,Women in the Kitchen ,111.14,False
+2024,13,Team,93.98,Titans Kickoff TD,118.68,False
+2024,13,Personal Caddy For Hire,138.22,Pay Chase and Chase,128.44,False
+2024,14,Rijan Bobinson,153.66,The Joe Joe Siwas,112.96,False
+2024,14,Women in the Kitchen ,118.74,Captain Kirk,100.84,False
+2024,14,Titans Kickoff TD,122.22,Joeman Sachs,52.62,False
+2024,14,Pay Chase and Chase,140.88,Brockenheimer,88.5,False
+2024,14,Personal Caddy For Hire,129.48,Team,137.32,False
+2024,15,The Joe Joe Siwas,92.54,Captain Kirk,172.3,True
+2024,15,Rijan Bobinson,106.66,Brockenheimer,120.98,True
+2024,15,Personal Caddy For Hire,130.88,Titans Kickoff TD,146.16,True
+2024,15,Team,112.5,Joeman Sachs,76.5,True
+2024,16,Women in the Kitchen ,188.12,Captain Kirk,131.28,True
+2024,16,Pay Chase and Chase,120.14,Brockenheimer,169.32,True
+2024,16,Rijan Bobinson,115.08,The Joe Joe Siwas,113.18,True
+2024,16,Titans Kickoff TD,131.24,Team,87.16,True
+2024,16,Personal Caddy For Hire,98.96,Joeman Sachs,45.74,True
+2024,17,Women in the Kitchen ,145.18,Brockenheimer,149.88,True
+2024,17,Pay Chase and Chase,115.78,Captain Kirk,109.22,True
+2024,17,Rijan Bobinson,124.54,The Joe Joe Siwas,73.78,True
+2024,17,Personal Caddy For Hire,94.78,Titans Kickoff TD,112.32,True
+2024,17,Team,126.84,Joeman Sachs,49.6,True
+2025,1,The Medical Tent,101.46,Always Open ,97.08,False
+2025,1,Would Be a Miracle FC,115.18,Brockenheimer,89.32,False
+2025,1,Cardi B's Baby Bump ,116.66,Joeman Sachs,97.82,False
+2025,1,Tim Jong Un,74.62,King Henry,100.52,False
+2025,1,What up my Njigbas,66.04,🐍Swifties🐍,79.92,False
+2025,2,Always Open ,132.44,Brockenheimer,123.1,False
+2025,2,Joeman Sachs,124.38,The Medical Tent,119.6,False
+2025,2,King Henry,88.1,Would Be a Miracle FC,105.58,False
+2025,2,🐍Swifties🐍,82.58,Cardi B's Baby Bump ,77.82,False
+2025,2,What up my Njigbas,95.54,Tim Jong Un,87.64,False
+2025,3,Joeman Sachs,91.06,Always Open ,130.04,False
+2025,3,Brockenheimer,106.76,King Henry,102.7,False
+2025,3,The Medical Tent,87.22,🐍Swifties🐍,47.76,False
+2025,3,Would Be a Miracle FC,92.12,What up my Njigbas,130.72,False
+2025,3,Cardi B's Baby Bump ,103.72,Tim Jong Un,104.54,False
+2025,4,Always Open ,112.8,King Henry,69.12,False
+2025,4,🐍Swifties🐍,87.52,Joeman Sachs,119.7,False
+2025,4,What up my Njigbas,73.18,Brockenheimer,131.24,False
+2025,4,Tim Jong Un,145.44,The Medical Tent,119.08,False
+2025,4,Cardi B's Baby Bump ,125.26,Would Be a Miracle FC,125.38,False
+2025,5,🐍Swifties🐍,97.16,Always Open ,127.7,False
+2025,5,King Henry,113.34,What up my Njigbas,112.98,False
+2025,5,Joeman Sachs,119.52,Tim Jong Un,99.42,False
+2025,5,Brockenheimer,88.6,Cardi B's Baby Bump ,137.82,False
+2025,5,The Medical Tent,91.32,Would Be a Miracle FC,125.26,False
+2025,6,Always Open ,116.44,What up my Njigbas,117.78,False
+2025,6,Tim Jong Un,118.44,🐍Swifties🐍,111.82,False
+2025,6,Cardi B's Baby Bump ,77.3,King Henry,75.34,False
+2025,6,Would Be a Miracle FC,99.98,Joeman Sachs,117.58,False
+2025,6,The Medical Tent,81.44,Brockenheimer,104.06,False
+2025,7,Tim Jong Un,105.46,Always Open ,137.24,False
+2025,7,What up my Njigbas,131.22,Cardi B's Baby Bump ,106.16,False
+2025,7,🐍Swifties🐍,68.84,Would Be a Miracle FC,121.08,False
+2025,7,King Henry,95.84,The Medical Tent,87.32,False
+2025,7,Joeman Sachs,142.24,Brockenheimer,107.96,False
+2025,8,Always Open ,143.16,Cardi B's Baby Bump ,97.42,False
+2025,8,Would Be a Miracle FC,100.7,Tim Jong Un,91.92,False
+2025,8,The Medical Tent,57.98,What up my Njigbas,104.68,False
+2025,8,Brockenheimer,124.88,🐍Swifties🐍,130.32,False
+2025,8,Joeman Sachs,102.86,King Henry,103.54,False
+2025,9,Would Be a Miracle FC,116.16,Always Open ,129.1,False
+2025,9,Cardi B's Baby Bump ,84.92,The Medical Tent,103.74,False
+2025,9,Tim Jong Un,92.7,Brockenheimer,109.72,False
+2025,9,What up my Njigbas,72.68,Joeman Sachs,139.4,False
+2025,9,🐍Swifties🐍,109.96,King Henry,115.2,False
+2025,10,Always Open ,153.92,The Medical Tent,104.28,False
+2025,10,Brockenheimer,108.0,Would Be a Miracle FC,118.84,False
+2025,10,Joeman Sachs,92.6,Cardi B's Baby Bump ,83.54,False
+2025,10,King Henry,91.9,Tim Jong Un,122.1,False
+2025,10,🐍Swifties🐍,113.4,What up my Njigbas,117.2,False
+2025,11,Brockenheimer,105.6,Always Open ,90.1,False
+2025,11,The Medical Tent,82.42,Joeman Sachs,91.64,False
+2025,11,Would Be a Miracle FC,94.62,King Henry,71.74,False
+2025,11,Cardi B's Baby Bump ,121.98,🐍Swifties🐍,80.64,False
+2025,11,Tim Jong Un,149.52,What up my Njigbas,87.16,False
+2025,12,Always Open ,90.36,Joeman Sachs,106.38,False
+2025,12,King Henry,113.46,Brockenheimer,88.02,False
+2025,12,🐍Swifties🐍,94.16,The Medical Tent,92.08,False
+2025,12,What up my Njigbas,159.44,Would Be a Miracle FC,107.42,False
+2025,12,Tim Jong Un,147.82,Cardi B's Baby Bump ,78.82,False
+2025,13,King Henry,91.54,Always Open ,127.7,False
+2025,13,Joeman Sachs,83.74,🐍Swifties🐍,87.06,False
+2025,13,Brockenheimer,126.64,What up my Njigbas,95.34,False
+2025,13,The Medical Tent,99.46,Tim Jong Un,110.42,False
+2025,13,Would Be a Miracle FC,103.94,Cardi B's Baby Bump ,85.72,False
+2025,14,Always Open ,100.1,🐍Swifties🐍,94.66,False
+2025,14,What up my Njigbas,106.8,King Henry,67.96,False
+2025,14,Tim Jong Un,80.54,Joeman Sachs,125.4,False
+2025,14,Cardi B's Baby Bump ,116.84,Brockenheimer,16.0,False
+2025,14,Would Be a Miracle FC,125.76,The Medical Tent,130.08,False
+2025,15,What up my Njigbas,140.9,Tim Jong Un,145.22,True
+2025,15,Always Open ,121.7,Brockenheimer,120.6,True
+2025,16,Joeman Sachs,126.5,Tim Jong Un,166.36,True
+2025,16,Would Be a Miracle FC,99.04,Always Open ,88.4,True
+2025,16,What up my Njigbas,85.02,Brockenheimer,128.96,True
+2025,17,Would Be a Miracle FC,116.6,Tim Jong Un,133.58,True
+2025,17,Joeman Sachs,97.74,Always Open ,95.1,True
+2025,17,What up my Njigbas,104.38,Brockenheimer,101.42,True

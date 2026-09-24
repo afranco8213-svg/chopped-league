@@ -15,6 +15,8 @@ assets/chopped-core.js   ESPN client + elimination logic (shared)
 assets/app.js            browser rendering
 assets/styles.css        styles
 scripts/*.js             Node CLI equivalents
+data/league_781990_history/     archived ESPN CSV export, 2018-2026
+scripts/espn_league_history.py  regenerates that export from ESPN
 ```
 
 `assets/chopped-core.js` has no DOM or Node dependencies, so the browser and
@@ -67,3 +69,33 @@ app fetches the league once and replays the season:
 
 While a week is live, standings and the chopping block are ranked by ESPN's
 live projections; once the week is final they rank by actual score.
+
+## League history
+
+The live dashboard reads only the current season from ESPN. `data/league_781990_history/`
+is a point-in-time archive of the league's full recorded history, so past seasons
+stay available even as ESPN ages them out:
+
+```
+standings_<year>.csv   final rank, owners, W/L/T, points for and against
+matchups_<year>.csv    every recorded game: week, both teams, both scores, playoff flag
+draft_<year>.csv       round, pick, team, player, keeper flag
+all_<kind>.csv         the same rows for every season, combined
+```
+
+Seasons 2018 through 2025 have complete results. The 2026 file set holds
+preseason standings only, with no matchups played yet.
+
+Nothing in the app imports these files today; they are checked in as a durable
+record. Regenerate them with:
+
+```
+pip install espn_api
+cd data && python3 ../scripts/espn_league_history.py
+```
+
+The league is private, so the script needs session cookies — pass `--espn-s2`
+and `--swid` (or set `ESPN_S2` and `SWID`), copied from fantasy.espn.com under
+dev tools, Application, Cookies. `--first-year` and `--last-year` narrow the range.
+
+These CSVs carry real manager names and are checked into a public repository.

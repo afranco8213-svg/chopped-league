@@ -1,0 +1,80 @@
+year,week,home_team,home_score,away_team,away_score,playoff
+2020,1,First Round Manager ,106.02,Fantasy  Football Team ,114.96,False
+2020,1,Herbert Fully Loaded,98.4,Weak  Knees,112.6,False
+2020,1,B T C,115.56,Trust the Process,110.44,False
+2020,1,Doug Dimmadome,180.0,The Sicilian  Defense ,106.58,False
+2020,1,Full Chubb,119.3,Stop Scoring  On Me,73.98,False
+2020,2,Weak  Knees,137.12,Trust the Process,150.98,False
+2020,2,The Sicilian  Defense ,157.78,First Round Manager ,108.1,False
+2020,2,Stop Scoring  On Me,133.26,Fantasy  Football Team ,115.0,False
+2020,2,Doug Dimmadome,85.36,Herbert Fully Loaded,121.28,False
+2020,2,Full Chubb,91.34,B T C,114.84,False
+2020,3,The Sicilian  Defense ,170.9,Stop Scoring  On Me,123.7,False
+2020,3,Weak  Knees,111.82,Doug Dimmadome,84.68,False
+2020,3,Trust the Process,135.0,Full Chubb,91.0,False
+2020,3,First Round Manager ,134.5,Herbert Fully Loaded,110.0,False
+2020,3,Fantasy  Football Team ,106.72,B T C,105.58,False
+2020,4,Doug Dimmadome,105.72,Full Chubb,103.52,False
+2020,4,Herbert Fully Loaded,160.84,The Sicilian  Defense ,122.3,False
+2020,4,B T C,104.3,Stop Scoring  On Me,127.5,False
+2020,4,First Round Manager ,81.6,Weak  Knees,95.5,False
+2020,4,Fantasy  Football Team ,132.08,Trust the Process,85.54,False
+2020,5,Herbert Fully Loaded,95.44,B T C,138.46,False
+2020,5,Doug Dimmadome,116.1,First Round Manager ,116.76,False
+2020,5,Full Chubb,116.0,Fantasy  Football Team ,112.12,False
+2020,5,The Sicilian  Defense ,106.78,Weak  Knees,104.44,False
+2020,5,Stop Scoring  On Me,113.52,Trust the Process,117.4,False
+2020,6,Fantasy  Football Team ,59.0,Weak  Knees,105.74,False
+2020,6,Trust the Process,104.1,The Sicilian  Defense ,88.84,False
+2020,6,Stop Scoring  On Me,133.52,Doug Dimmadome,105.64,False
+2020,6,Full Chubb,114.32,Herbert Fully Loaded,102.72,False
+2020,6,B T C,105.78,First Round Manager ,126.6,False
+2020,7,The Sicilian  Defense ,129.32,Fantasy  Football Team ,85.32,False
+2020,7,Doug Dimmadome,102.62,Trust the Process,120.5,False
+2020,7,Herbert Fully Loaded,155.48,Stop Scoring  On Me,117.8,False
+2020,7,First Round Manager ,119.2,Full Chubb,121.5,False
+2020,7,Weak  Knees,104.42,B T C,85.48,False
+2020,8,Fantasy  Football Team ,108.14,Doug Dimmadome,100.72,False
+2020,8,Trust the Process,99.94,Herbert Fully Loaded,87.22,False
+2020,8,Stop Scoring  On Me,86.74,First Round Manager ,96.94,False
+2020,8,Full Chubb,116.0,Weak  Knees,125.42,False
+2020,8,B T C,56.46,The Sicilian  Defense ,146.34,False
+2020,9,Herbert Fully Loaded,102.84,Fantasy  Football Team ,132.2,False
+2020,9,First Round Manager ,86.04,Doug Dimmadome,90.5,False
+2020,9,Trust the Process,76.28,B T C,108.8,False
+2020,9,Weak  Knees,139.26,The Sicilian  Defense ,102.0,False
+2020,9,Stop Scoring  On Me,82.44,Full Chubb,122.52,False
+2020,10,First Round Manager ,87.42,Trust the Process,81.42,False
+2020,10,Weak  Knees,83.92,Herbert Fully Loaded,82.38,False
+2020,10,Fantasy  Football Team ,76.1,Stop Scoring  On Me,90.68,False
+2020,10,The Sicilian  Defense ,111.02,Doug Dimmadome,154.66,False
+2020,10,B T C,91.76,Full Chubb,120.9,False
+2020,11,Weak  Knees,116.68,Stop Scoring  On Me,152.04,False
+2020,11,First Round Manager ,114.38,The Sicilian  Defense ,85.28,False
+2020,11,Full Chubb,113.66,Trust the Process,110.52,False
+2020,11,Herbert Fully Loaded,133.74,Doug Dimmadome,110.34,False
+2020,11,B T C,108.86,Fantasy  Football Team ,92.44,False
+2020,12,The Sicilian  Defense ,155.2,Full Chubb,119.2,False
+2020,12,Doug Dimmadome,85.1,Weak  Knees,60.6,False
+2020,12,Stop Scoring  On Me,113.5,B T C,108.88,False
+2020,12,Herbert Fully Loaded,118.44,First Round Manager ,134.22,False
+2020,12,Trust the Process,100.18,Fantasy  Football Team ,152.6,False
+2020,13,Doug Dimmadome,139.68,B T C,121.0,False
+2020,13,The Sicilian  Defense ,122.62,Herbert Fully Loaded,76.96,False
+2020,13,Fantasy  Football Team ,113.88,Full Chubb,92.12,False
+2020,13,Weak  Knees,120.62,First Round Manager ,74.44,False
+2020,13,Trust the Process,118.02,Stop Scoring  On Me,118.2,False
+2020,14,Stop Scoring  On Me,168.1,Fantasy  Football Team ,104.24,True
+2020,14,The Sicilian  Defense ,141.64,First Round Manager ,100.16,True
+2020,14,Doug Dimmadome,89.82,Trust the Process,152.82,True
+2020,14,B T C,77.8,Herbert Fully Loaded,107.52,True
+2020,15,Weak  Knees,152.92,Stop Scoring  On Me,90.42,True
+2020,15,Full Chubb,129.34,The Sicilian  Defense ,112.24,True
+2020,15,Fantasy  Football Team ,109.7,First Round Manager ,145.92,True
+2020,15,Trust the Process,109.56,Herbert Fully Loaded,113.86,True
+2020,15,Doug Dimmadome,118.02,B T C,109.56,True
+2020,16,Weak  Knees,154.18,Full Chubb,97.48,True
+2020,16,The Sicilian  Defense ,168.44,Stop Scoring  On Me,107.34,True
+2020,16,Fantasy  Football Team ,126.42,First Round Manager ,92.26,True
+2020,16,Doug Dimmadome,112.32,Herbert Fully Loaded,83.12,True
+2020,16,Trust the Process,110.72,B T C,91.2,True
